@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="家庭健康管理师工作平台" />
+  <title>家庭健康管理师</title>
+  <link rel="stylesheet" href="./styles.css?v=20261113" />
+</head>
+<body>
+  <svg class="svg-sprite" aria-hidden="true">
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.5-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 10-8 10Z"/><path d="M7 12h2l1-2 2.2 5 1.4-3H17"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 5h16v12H4zM8 20h8M9 9v4m3-6v6m3-3v3"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></symbol>
+    <symbol id="i-growth" viewBox="0 0 24 24"><path d="M4 18v-5a8 8 0 0 1 16 0v5M4 15h3m10 0h3M8 18h8M12 8V4m0 0-2 2m2-2 2 2"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M5 6h14M5 12h14M5 18h14M9 9l-3 3 3 3"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  </svg>
+
+  <div class="app-shell" id="appShell">
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark"><svg><use href="#i-heart"/></svg></span><strong>家庭健康管理师</strong></div>
+      <nav class="nav" aria-label="主导航">
+        <button class="nav-item active" data-view="dashboard"><svg><use href="#i-home"/></svg><span>工作台</span></button>
+        <div class="nav-group open">
+          <button class="nav-item nav-parent" id="customerNav"><svg><use href="#i-user"/></svg><span>客户管理</span><svg class="chevron"><use href="#i-chevron"/></svg></button>
+          <div class="sub-nav"><button>全部客户</button><button>在管客户</button><button data-view="acquisition">获客管理</button></div>
+        </div>
+      </nav>
+      <div class="sidebar-bottom">
+        <button class="profile"><span class="avatar">👨🏻‍⚕️</span><strong>张雷强</strong><svg><use href="#i-chevron"/></svg></button>
+        <button class="nav-item collapse" id="collapseButton"><svg><use href="#i-menu"/></svg><span>收起面板</span></button>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <div class="ambient a1"></div><div class="ambient a2"></div>
+      <div class="content">
+        <section class="page-view active" id="dashboardView">
+          <header class="page-header">
+            <div><h1>张医生，上午好！<i>Hi</i></h1><p>已为您整理好今日工作信息</p></div>
+            <button class="primary-btn" data-toast="已打开添加客户入口"><svg><use href="#i-plus"/></svg>添加客户</button>
+          </header>
+          <section class="surface overview-card">
+            <div class="section-title"><div><h2>工作概览</h2></div><span>最近更新时间：今天 10:30</span></div>
+            <div class="stat-grid five">
+              <article><p>潜在客户总数</p><strong>28</strong><span>当前潜在客户</span></article>
+              <article><p>今日待办</p><strong>4</strong><span>待处理任务</span></article>
+              <article><p>今日新增</p><strong>2</strong><span>新增客户</span></article>
+              <article><p>客户总数</p><strong>46</strong><span>当前可管理范围</span></article>
+              <article><p>完成客户数</p><strong>21</strong><span>完成本期服务</span></article>
+            </div>
+          </section>
+          <div class="dashboard-grid">
+            <section class="surface panel-box">
+              <div class="section-title"><div><h2>待办事项</h2><p>今日优先处理的客户任务</p></div><em>今日任务</em></div>
+              <div class="task-list">
+                <article><div><h3>客户激活跟进</h3><p>陈女士 · 10:00 · 待联系</p></div><button data-toast="查看陈女士的客户激活任务">查看</button></article>
+                <article><div><h3>健康管理服务跟进</h3><p>王先生 · 11:30 · 待处理</p></div><button data-toast="查看王先生的服务跟进任务">查看</button></article>
+                <article><div><h3>就诊摘要核对</h3><p>刘女士 · 14:00 · 待查看</p></div><button data-toast="查看刘女士的就诊摘要">查看</button></article>
+                <article><div><h3>专家建议提醒</h3><p>赵先生 · 16:30 · 待提醒</p></div><button data-toast="查看赵先生的专家建议">查看</button></article>
+              </div>
+            </section>
+            <section class="surface panel-box">
+              <div class="section-title"><div><h2>客户分析</h2></div><span>8 位重点客户</span></div>
+              <div class="customer-list">
+                <article><b>陈</b><div><h3>陈女士 <i class="level red">A类客户</i></h3><p>商机原因&nbsp; 有家庭年度健康管理需求</p></div><button data-toast="查看陈女士客户详情">查看</button></article>
+                <article><b>王</b><div><h3>王先生 <i class="level amber">B类客户</i></h3><p>商机原因&nbsp; 关注慢病管理与定期随访</p></div><button data-toast="查看王先生客户详情">查看</button></article>
+                <article><b>刘</b><div><h3>刘女士 <i class="level blue">C类客户</i></h3><p>商机原因&nbsp; 体检异常，需进一步健康咨询</p></div><button data-toast="查看刘女士客户详情">查看</button></article>
+                <article><b>赵</b><div><h3>赵先生 <i class="level red">A类客户</i></h3><p>商机原因&nbsp; 企业高管，关注长期健康管理</p></div><button data-toast="查看赵先生客户详情">查看</button></article>
+              </div>
+            </section>
+          </div>
+          <section class="surface learning-panel">
+            <div class="section-title"><div><h2>我的学习</h2><p>供应链新品学习及产品知识</p></div><button data-toast="已进入新品学习中心">新品学习中心</button></div>
+            <div class="learning-stats">
+              <article class="selected"><p>待学习</p><strong>6</strong><span>尚未开始</span></article><article><p>进行中</p><strong>3</strong><span>已开始学习</span></article><article><p>已学习</p><strong>18</strong><span>已完成学习</span></article><article><p>新上架</p><strong>4</strong><span>最近上架内容</span></article>
+            </div>
+            <p class="summary">展示 3 项待学习内容</p>
+            <div class="course-list"><article><div><h3>综合健康检测服务包</h3><p>新品课程 · 11月11日 · 约12分钟</p></div><button data-toast="开始学习综合健康检测服务包">开始学习</button></article><article><div><h3>健康检测服务介绍规范</h3><p>服务培训 · 11月10日 · 约8分钟</p></div><button data-toast="开始学习健康检测服务介绍规范">开始学习</button></article><article><div><h3>专项健康管理权益说明</h3><p>新品课程 · 11月11日 · 约9分钟</p></div><button data-toast="开始学习专项健康管理权益说明">开始学习</button></article></div>
+          </section>
+        </section>
+
+        <section class="page-view" id="acquisitionView">
+          <header class="page-header acquisition-header">
+            <div><h1>获客管理</h1><p>沉淀客户线索，追踪渠道转化，让健康服务触达更多家庭</p></div>
+            <button class="primary-btn" id="manualLead"><svg><use href="#i-plus"/></svg>手动登记线索</button>
+          </header>
+          <section class="stat-grid four acquisition-stats">
+            <article><p>新增线索</p><strong>128</strong><span>周期内去重新线索</span></article><article><p>当前待跟进</p><strong>36</strong><span>当前存量</span></article><article><p>有效线索</p><strong>85</strong><span>已确认服务意向</span></article><article><p>成交客户</p><strong>18</strong><span>周期内首次成交</span></article>
+          </section>
+          <div class="acquisition-grid">
+            <section class="surface panel-box tools-panel">
+              <div class="section-title"><div><h2>获客工具</h2><p>把服务分享出去，让咨询客户进入你的线索池</p></div><em>优先使用</em></div>
+              <div class="tools-grid"><article><span>▦</span><h3>我的获客码</h3><p>专属咨询入口，自动记录获客归属</p><button class="outline-btn" data-action="qr">查看二维码</button></article><article><span>▤</span><h3>推广素材</h3><p>服务介绍、宣传海报、健康科普</p><button class="outline-btn" data-toast="已打开推广素材库">查看素材</button></article></div>
+              <div class="activity"><div><h3>健康服务咨询活动</h3><p>线下活动、合作渠道的统一线索入口</p></div><button class="outline-btn" data-toast="已打开健康服务咨询活动">查看活动</button></div>
+            </section>
+            <section class="surface panel-box funnel-panel">
+              <div class="section-title"><div><h2>线索转化漏斗</h2><p>可批线索的累计转化 · 演示</p></div></div>
+              <div class="funnel"><article><div><span>新增线索</span><b>128</b></div><i><u style="width:100%"></u></i></article><article><div><span>已联系</span><b>96</b></div><i><u style="width:75%"></u></i><p>累计转化 75.0%</p></article><article><div><span>确认有效需求</span><b>85</b></div><i><u style="width:66.4%"></u></i><p>累计转化 66.4%</p></article><article><div><span>已成交</span><b>18</b></div><i><u style="width:14.1%"></u></i><p>累计转化 14.1%</p></article></div>
+            </section>
+          </div>
+          <section class="surface channel-panel">
+            <div class="section-title"><div><h2>渠道获客分析</h2><p>比较不同渠道带来的线索与成交效果</p></div><select id="channelSelect"><option>全部可见渠道</option><option>FHO二维码</option><option>老客户推荐</option><option>线下活动</option><option>合作渠道</option></select></div>
+            <div class="channel-grid"><article data-channel="FHO二维码"><h3>FHO二维码</h3><strong>40 <small>条线索</small></strong><p>成交 8 人 · 20.0%</p></article><article data-channel="老客户推荐"><h3>老客户推荐</h3><strong>50 <small>条线索</small></strong><p>成交 7 人 · 14.0%</p></article><article data-channel="线下活动"><h3>线下活动</h3><strong>25 <small>条线索</small></strong><p>成交 2 人 · 8.0%</p></article><article data-channel="合作渠道"><h3>合作渠道</h3><strong>13 <small>条线索</small></strong><p>成交 1 人 · 7.7%</p></article></div>
+          </section>
+          <section class="surface leads-panel">
+            <div class="section-title"><div><h2>客户线索</h2><p>跟进咨询、确认服务需求、关联成交订单</p></div><span id="resultCount">共 6 条演示线索</span></div>
+            <div class="leads-toolbar"><div class="tabs"><button class="active" data-status="全部">全部</button><button data-status="待联系">待联系</button><button data-status="跟进中">跟进中</button><button data-status="已成交">已成交</button><button data-status="已关闭">已关闭</button></div><input id="searchInput" type="search" placeholder="搜索客户姓名 / 意向服务" /></div>
+            <div class="table-wrap"><table><thead><tr><th>客户</th><th>来源</th><th>归属FHO</th><th>意向服务</th><th>状态</th><th>操作</th></tr></thead><tbody id="leadRows"></tbody></table><div class="empty" id="emptyState" hidden>暂无符合条件的客户线索</div></div>
+          </section>
+          <p class="disclaimer">演示说明：所有客户、收入和渠道数据均为模拟。二维码仅作视觉演示，不是可实际访问的推广链接。</p>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden><section class="modal" role="dialog" aria-modal="true"><button class="modal-close" id="modalClose">×</button><div id="modalContent"></div></section></div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="./app.js?v=20261113"></script>
+  <script src="./ui-notes.js?v=20261113"></script>
+</body>
+</html>
