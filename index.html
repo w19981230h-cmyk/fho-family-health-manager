@@ -5,27 +5,69 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="家庭健康管理师工作平台" />
   <title>家庭健康管理师</title>
-  <link rel="stylesheet" href="./styles.css?v=20261113" />
+  <link rel="stylesheet" href="./styles.css?v=20261120-134" />
 </head>
 <body>
   <svg class="svg-sprite" aria-hidden="true">
     <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-8-4.5-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 10-8 10Z"/><path d="M7 12h2l1-2 2.2 5 1.4-3H17"/></symbol>
     <symbol id="i-home" viewBox="0 0 24 24"><path d="M4 5h16v12H4zM8 20h8M9 9v4m3-6v6m3-3v3"/></symbol>
     <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M5 21v-2a7 7 0 0 1 14 0v2"/></symbol>
+    <symbol id="i-membership" viewBox="0 0 24 24"><path d="M4 7h16v11H4z"/><path d="M4 10h16M8 14h4"/><circle cx="17" cy="15" r="1.5"/></symbol>
     <symbol id="i-growth" viewBox="0 0 24 24"><path d="M4 18v-5a8 8 0 0 1 16 0v5M4 15h3m10 0h3M8 18h8M12 8V4m0 0-2 2m2-2 2 2"/></symbol>
     <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4"/></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M5 6h14M5 12h14M5 18h14M9 9l-3 3 3 3"/></symbol>
     <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="16" cy="9" r="2.5"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M14 15a5 5 0 0 1 7 4.5V20"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4m8-4v4M3 10h18m-13 4 2 2 5-5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v6l4 2"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><path d="M12 3 2.8 20h18.4L12 3Z"/><path d="M12 9v5m0 3h.01"/></symbol>
+    <symbol id="i-bell" viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M9.5 21h5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9h8m-8 3h5"/></symbol>
+    <symbol id="i-edit" viewBox="0 0 24 24"><path d="m4 20 4.2-1 10.6-10.6-3.2-3.2L5 15.8 4 20Z"/><path d="m13.8 7 3.2 3.2"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3m3 0-1 13H7L6 7m4 4v5m4-5v5"/></symbol>
+    <symbol id="i-cart" viewBox="0 0 24 24"><path d="M3 4h2l2 10h10.5l2-7H6"/><circle cx="9" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></symbol>
+    <symbol id="i-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><path d="M4 10h16v10H4zM3 7h18v3H3zM12 7v13"/><path d="M12 7H8.5A2.5 2.5 0 1 1 11 4.5L12 7Zm0 0h3.5A2.5 2.5 0 1 0 13 4.5L12 7Z"/></symbol>
+    <symbol id="i-coins" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v4c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 10v4c0 1.7 3.1 3 7 3s7-1.3 7-3v-4M5 14v4c0 1.7 3.1 3 7 3s7-1.3 7-3v-4"/></symbol>
+    <symbol id="i-crown" viewBox="0 0 24 24"><path d="m4 8 4 4 4-7 4 7 4-4-2 11H6L4 8Z"/><path d="M7 16h10"/><circle cx="4" cy="7" r="1"/><circle cx="12" cy="4" r="1"/><circle cx="20" cy="7" r="1"/></symbol>
+    <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 20h14"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A3.5 3.5 0 0 1 7.5 2H11v17H7.5A3.5 3.5 0 0 0 4 22V5.5Z"/><path d="M20 5.5A3.5 3.5 0 0 0 16.5 2H13v17h3.5A3.5 3.5 0 0 1 20 22V5.5Z"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4V8Z"/></symbol>
+    <symbol id="i-check-circle" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8 12 2.5 2.5L16 9"/></symbol>
+    <symbol id="i-drop" viewBox="0 0 24 24"><path d="M12 3s6 6.4 6 11a6 6 0 0 1-12 0c0-4.6 6-11 6-11Z"/><path d="M9 15.5a3.2 3.2 0 0 0 3 1.9"/></symbol>
+    <symbol id="i-activity" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><path d="m9 10 3-2 3 2 3 1M12 8v5l-3 3m3-3 4 3m-7 0-2 5m9-5 2 5"/></symbol>
+    <symbol id="i-box" viewBox="0 0 24 24"><path d="m4 7 8-4 8 4-8 4-8-4Z"/><path d="m4 7 8 4 8-4v10l-8 4-8-4V7Zm8 4v10"/></symbol>
+    <symbol id="i-report-doc" viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6z"/><path d="M15 3v5h4M9 12h7M9 16h7"/></symbol>
+    <symbol id="i-report-chart" viewBox="0 0 24 24"><path d="M5 20V10h3v10M11 20V5h3v15M17 20v-8h3v8"/></symbol>
+    <symbol id="i-report-stethoscope" viewBox="0 0 24 24"><path d="M5 3v5a5 5 0 0 0 10 0V3M3 3h4m6 0h4M10 13v2a5 5 0 0 0 10 0v-1"/><circle cx="20" cy="11" r="2"/></symbol>
+    <symbol id="i-report-cross" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></symbol>
+    <symbol id="i-report-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m4 12 8 4.5 8-4.5M4 16l8 4.5 8-4.5"/></symbol>
+    <symbol id="i-report-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></symbol>
+    <symbol id="i-report-arrow" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-plan-seat" viewBox="0 0 24 24"><circle cx="12" cy="7" r="3"/><path d="M7 20v-2a5 5 0 0 1 10 0v2M5 20h14"/></symbol>
+    <symbol id="i-plan-clients" viewBox="0 0 24 24"><circle cx="9" cy="7.5" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3.5 20v-2a5.5 5.5 0 0 1 11 0v2M14 15a4.5 4.5 0 0 1 6.5 4"/></symbol>
+    <symbol id="i-plan-points" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="7" ry="3"/><path d="M5 6v4c0 1.7 3.1 3 7 3s7-1.3 7-3V6M5 10v4c0 1.7 3.1 3 7 3s7-1.3 7-3v-4M5 14v4c0 1.7 3.1 3 7 3s7-1.3 7-3v-4"/></symbol>
+    <symbol id="i-benefit-base" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 8h8v8H8z"/></symbol>
+    <symbol id="i-benefit-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z" fill="currentColor" opacity=".18"/><path d="m12 3 9 5-9 5-9-5 9-5ZM4 12l8 4.5 8-4.5M4 16l8 4.5 8-4.5"/></symbol>
+    <symbol id="i-benefit-team" viewBox="0 0 24 24"><circle cx="12" cy="8" r="2.5"/><circle cx="5" cy="17" r="2"/><circle cx="19" cy="17" r="2"/><path d="M12 10.5V14M7 17h10M7 17l5-3 5 3"/></symbol>
+    <symbol id="i-benefit-chip" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4M10 10h4v4h-4z"/></symbol>
+    <symbol id="i-benefit-diamond" viewBox="0 0 24 24"><path d="m3 9 4-5h10l4 5-9 11L3 9Z"/><path d="m7 4 2 5 3-5 3 5 2-5M3 9h18M9 9l3 11 3-11"/></symbol>
+    <symbol id="i-benefit-headset" viewBox="0 0 24 24"><path d="M4 14v-2a8 8 0 0 1 16 0v2"/><rect x="3" y="13" width="4" height="7" rx="2"/><rect x="17" y="13" width="4" height="7" rx="2"/><path d="M17 20c0 1.3-1.8 2-5 2"/></symbol>
   </svg>
 
   <div class="app-shell" id="appShell">
     <aside class="sidebar">
-      <div class="brand"><span class="brand-mark"><svg><use href="#i-heart"/></svg></span><strong>家庭健康管理师</strong></div>
+      <div class="brand"><strong>拉法国际建管中心</strong></div>
       <nav class="nav" aria-label="主导航">
         <button class="nav-item active" data-view="dashboard"><svg><use href="#i-home"/></svg><span>工作台</span></button>
         <div class="nav-group open">
-          <button class="nav-item nav-parent" id="customerNav"><svg><use href="#i-user"/></svg><span>客户管理</span><svg class="chevron"><use href="#i-chevron"/></svg></button>
-          <div class="sub-nav"><button>全部客户</button><button>在管客户</button><button data-view="acquisition">获客管理</button></div>
+          <button class="nav-item nav-parent" id="customerNav" aria-expanded="true"><svg><use href="#i-user"/></svg><span>客户管理</span><svg class="chevron"><use href="#i-chevron"/></svg></button>
+          <div class="sub-nav"><button data-view="customers">全部客户</button><button data-view="managedCustomers">在管客户</button><button data-view="acquisition">获客管理</button></div>
+        </div>
+        <div class="nav-group membership-nav-group">
+          <button class="nav-item nav-parent" id="membershipNav" aria-expanded="false"><svg><use href="#i-membership"/></svg><span>会员与积分</span><svg class="chevron"><use href="#i-chevron"/></svg></button>
+          <div class="sub-nav"><button data-view="myMembership">我的会员</button><button data-view="membershipPlans">会员套餐</button><button data-view="pointsMall">积分商城</button><button data-view="pointsDetails">积分明细</button></div>
         </div>
       </nav>
       <div class="sidebar-bottom">
@@ -38,87 +80,1149 @@
       <div class="ambient a1"></div><div class="ambient a2"></div>
       <div class="content">
         <section class="page-view active" id="dashboardView">
-          <header class="page-header">
-            <div><h1>张医生，上午好！<i>Hi</i></h1><p>已为您整理好今日工作信息</p></div>
-            <button class="primary-btn" data-toast="已打开添加客户入口"><svg><use href="#i-plus"/></svg>添加客户</button>
+          <header class="view-page-heading" aria-labelledby="dashboardPageTitle">
+            <div><h1 id="dashboardPageTitle">工作台</h1><p>聚合今日重点工作，快速掌握客户服务与运营进展</p></div>
+          </header>
+          <header class="page-header dashboard-header">
+            <div class="dashboard-greeting"><span class="dashboard-live"><i></i>今日健康服务驾驶舱</span><h1>张医生，上午好！<i>Hi</i></h1><p>已为您整理好今日工作信息，重点客户与待办进度一目了然</p></div>
+            <div class="dashboard-hero-art" aria-hidden="true"><div class="hero-clipboard"><i></i><span></span><span></span><span></span><b>✓</b></div></div>
+            <button class="primary-btn" id="quickRecordButton" type="button"><svg><use href="#i-plus"/></svg>快速建档</button>
           </header>
           <section class="surface overview-card">
             <div class="section-title"><div><h2>工作概览</h2></div><span>最近更新时间：今天 10:30</span></div>
             <div class="stat-grid five">
-              <article><p>潜在客户总数</p><strong>28</strong><span>当前潜在客户</span></article>
-              <article><p>今日待办</p><strong>4</strong><span>待处理任务</span></article>
-              <article><p>今日新增</p><strong>2</strong><span>新增客户</span></article>
-              <article><p>客户总数</p><strong>46</strong><span>当前可管理范围</span></article>
-              <article><p>完成客户数</p><strong>21</strong><span>完成本期服务</span></article>
+              <article><i class="stat-icon"><svg><use href="#i-users"/></svg></i><p>潜在客户总数</p><strong>28</strong><span>当前潜在客户</span></article>
+              <article><i class="stat-icon"><svg><use href="#i-calendar"/></svg></i><p>今日待办</p><strong>4</strong><span>待处理任务</span></article>
+              <article><i class="stat-icon"><svg><use href="#i-growth"/></svg></i><p>今日新增</p><strong>2</strong><span>新增客户</span></article>
+              <article><i class="stat-icon"><svg><use href="#i-user"/></svg></i><p>客户总数</p><strong>46</strong><span>当前可管理范围</span></article>
+              <article><i class="stat-icon"><svg><use href="#i-heart"/></svg></i><p>完成客户数</p><strong>21</strong><span>完成本期服务</span></article>
             </div>
           </section>
           <div class="dashboard-grid">
-            <section class="surface panel-box">
-              <div class="section-title"><div><h2>待办事项</h2><p>今日优先处理的客户任务</p></div><em>今日任务</em></div>
-              <div class="task-list">
-                <article><div><h3>客户激活跟进</h3><p>陈女士 · 10:00 · 待联系</p></div><button data-toast="查看陈女士的客户激活任务">查看</button></article>
-                <article><div><h3>健康管理服务跟进</h3><p>王先生 · 11:30 · 待处理</p></div><button data-toast="查看王先生的服务跟进任务">查看</button></article>
-                <article><div><h3>就诊摘要核对</h3><p>刘女士 · 14:00 · 待查看</p></div><button data-toast="查看刘女士的就诊摘要">查看</button></article>
-                <article><div><h3>专家建议提醒</h3><p>赵先生 · 16:30 · 待提醒</p></div><button data-toast="查看赵先生的专家建议">查看</button></article>
+            <section class="surface panel-box task-stat-panel">
+              <div class="section-title"><div><h2>待办事项</h2><p>按事项类型汇总，快速处理异常和提醒</p></div><em>3 类事项</em></div>
+              <div class="task-list task-stats-list">
+                <article class="task-stat-row archive-task"><span class="task-type-icon"><svg><use href="#i-calendar"/></svg></span><div><h3>档案待补充</h3><p>共 <b>16</b> 位客户尚无归档报告，需要主理人补充</p></div><strong>16<small>位客户</small></strong><button data-toast="已进入档案补充列表">前往补充</button></article>
+                <article class="task-stat-row report-task"><span class="task-type-icon"><svg><use href="#i-alert"/></svg></span><div><h3>报告待出具</h3><p>共 <b>13</b> 位客户尚无报告文档，待出具报告</p></div><strong>13<small>位客户</small></strong><button data-toast="已进入报告生成列表">生成报告</button></article>
+                <article class="task-stat-row reminder-task"><span class="task-type-icon"><svg><use href="#i-bell"/></svg></span><div><h3>客户待提醒</h3><p>当前存在 <b>1</b> 条今日待提醒事项，需主理人完成客户提醒</p></div><strong>1<small>条提醒</small></strong><button data-toast="已进入客户提醒列表">查看提醒</button></article>
               </div>
             </section>
             <section class="surface panel-box">
               <div class="section-title"><div><h2>客户分析</h2></div><span>8 位重点客户</span></div>
               <div class="customer-list">
-                <article><b>陈</b><div><h3>陈女士 <i class="level red">A类客户</i></h3><p>商机原因&nbsp; 有家庭年度健康管理需求</p></div><button data-toast="查看陈女士客户详情">查看</button></article>
-                <article><b>王</b><div><h3>王先生 <i class="level amber">B类客户</i></h3><p>商机原因&nbsp; 关注慢病管理与定期随访</p></div><button data-toast="查看王先生客户详情">查看</button></article>
-                <article><b>刘</b><div><h3>刘女士 <i class="level blue">C类客户</i></h3><p>商机原因&nbsp; 体检异常，需进一步健康咨询</p></div><button data-toast="查看刘女士客户详情">查看</button></article>
-                <article><b>赵</b><div><h3>赵先生 <i class="level red">A类客户</i></h3><p>商机原因&nbsp; 企业高管，关注长期健康管理</p></div><button data-toast="查看赵先生客户详情">查看</button></article>
+                <article><b>陈</b><div><h3>陈女士 <span class="customer-demographic female">女 · 45岁</span><i class="level red">A类客户</i></h3><p>商机原因&nbsp; 有家庭年度健康管理需求</p></div><button data-open-dashboard-patient="陈女士">查看</button></article>
+                <article><b>王</b><div><h3>王先生 <span class="customer-demographic male">男 · 57岁</span><i class="level amber">B类客户</i></h3><p>商机原因&nbsp; 关注慢病管理与定期随访</p></div><button data-open-dashboard-patient="王先生">查看</button></article>
+                <article><b>刘</b><div><h3>刘女士 <span class="customer-demographic female">女 · 42岁</span><i class="level blue">C类客户</i></h3><p>商机原因&nbsp; 体检异常，需进一步健康咨询</p></div><button data-open-dashboard-patient="刘女士">查看</button></article>
+                <article><b>赵</b><div><h3>赵先生 <span class="customer-demographic male">男 · 51岁</span><i class="level red">A类客户</i></h3><p>商机原因&nbsp; 企业高管，关注长期健康管理</p></div><button data-open-dashboard-patient="赵先生">查看</button></article>
               </div>
             </section>
           </div>
           <section class="surface learning-panel">
-            <div class="section-title"><div><h2>我的学习</h2><p>供应链新品学习及产品知识</p></div><button data-toast="已进入新品学习中心">新品学习中心</button></div>
-            <div class="learning-stats">
-              <article class="selected"><p>待学习</p><strong>6</strong><span>尚未开始</span></article><article><p>进行中</p><strong>3</strong><span>已开始学习</span></article><article><p>已学习</p><strong>18</strong><span>已完成学习</span></article><article><p>新上架</p><strong>4</strong><span>最近上架内容</span></article>
+            <div class="section-title"><div><h2>我的学习</h2><p>提供最新的学习资源与产品知识，助力专业能力提升</p></div><button data-toast="已进入新品学习中心">新品学习中心</button></div>
+            <div class="learning-stats" role="tablist" aria-label="学习状态">
+              <button type="button" class="selected" role="tab" aria-selected="true" aria-controls="dashboardCourseList" data-learning-status="待学习"><i class="learning-icon"><svg><use href="#i-book"/></svg></i><p>待学习</p><strong>6</strong><span>尚未开始</span></button>
+              <button type="button" role="tab" aria-selected="false" aria-controls="dashboardCourseList" data-learning-status="进行中"><i class="learning-icon"><svg><use href="#i-play"/></svg></i><p>进行中</p><strong>3</strong><span>已开始学习</span></button>
+              <button type="button" role="tab" aria-selected="false" aria-controls="dashboardCourseList" data-learning-status="已学习"><i class="learning-icon"><svg><use href="#i-check-circle"/></svg></i><p>已学习</p><strong>18</strong><span>已完成学习</span></button>
+              <button type="button" role="tab" aria-selected="false" aria-controls="dashboardCourseList" data-learning-status="新上架"><i class="learning-icon"><svg><use href="#i-box"/></svg></i><p>新上架</p><strong>4</strong><span>最近上架内容</span></button>
             </div>
-            <p class="summary">展示 3 项待学习内容</p>
-            <div class="course-list"><article><div><h3>综合健康检测服务包</h3><p>新品课程 · 11月11日 · 约12分钟</p></div><button data-toast="开始学习综合健康检测服务包">开始学习</button></article><article><div><h3>健康检测服务介绍规范</h3><p>服务培训 · 11月10日 · 约8分钟</p></div><button data-toast="开始学习健康检测服务介绍规范">开始学习</button></article><article><div><h3>专项健康管理权益说明</h3><p>新品课程 · 11月11日 · 约9分钟</p></div><button data-toast="开始学习专项健康管理权益说明">开始学习</button></article></div>
+            <p class="summary" id="learningSummary">展示 3 项待学习内容</p>
+            <div class="course-list dashboard-course-list" id="dashboardCourseList" role="tabpanel">
+              <article><span class="course-index">01</span><div class="course-copy"><div><em class="course-tag new">新品课程</em><h3>综合健康检测服务包</h3></div><p><span>约 12 分钟</span><span>11月11日更新</span></p></div><button data-toast="开始学习综合健康检测服务包">开始学习</button></article>
+              <article><span class="course-index">02</span><div class="course-copy"><div><em class="course-tag training">服务培训</em><h3>健康检测服务介绍规范</h3></div><p><span>约 8 分钟</span><span>11月10日更新</span></p></div><button data-toast="开始学习健康检测服务介绍规范">开始学习</button></article>
+              <article><span class="course-index">03</span><div class="course-copy"><div><em class="course-tag special">专项课程</em><h3>专项健康管理权益说明</h3></div><p><span>约 9 分钟</span><span>11月11日更新</span></p></div><button data-toast="开始学习专项健康管理权益说明">开始学习</button></article>
+            </div>
           </section>
         </section>
 
-        <section class="page-view" id="acquisitionView">
-          <header class="page-header acquisition-header">
-            <div><h1>获客管理</h1><p>沉淀客户线索，追踪渠道转化，让健康服务触达更多家庭</p></div>
-            <button class="primary-btn" id="manualLead"><svg><use href="#i-plus"/></svg>手动登记线索</button>
+        <section class="page-view" id="customersView">
+          <header class="page-header customer-page-header view-page-heading">
+            <div><h1>全部客户 <span>共 552 人</span></h1><p>管理与当前 FHO 建立关系的所有客户，跟进转化并提供健康管理服务</p></div>
+            <div class="customer-header-art" aria-hidden="true"><i></i><i></i><b>♥</b></div>
           </header>
-          <section class="stat-grid four acquisition-stats">
-            <article><p>新增线索</p><strong>128</strong><span>周期内去重新线索</span></article><article><p>当前待跟进</p><strong>36</strong><span>当前存量</span></article><article><p>有效线索</p><strong>85</strong><span>已确认服务意向</span></article><article><p>成交客户</p><strong>18</strong><span>周期内首次成交</span></article>
+          <section class="surface customer-panel">
+            <form class="customer-filters" id="customerFilters">
+              <label class="search-field"><span class="search-icon" aria-hidden="true"></span><input id="customerKeyword" type="search" placeholder="搜索客户姓名或手机号" /></label>
+              <button type="button" class="smart-open-btn" id="openSmartFilter"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16l-6 7v6l-4 2v-8L4 5Z"/></svg>智能筛选</button>
+              <div class="filter-actions"><button type="button" class="reset-btn" id="resetCustomerFilters"><span aria-hidden="true">↻</span>重置</button><button type="submit" class="query-btn"><span aria-hidden="true">⌕</span>查询</button></div>
+              <button type="button" class="customer-add-button" id="addCustomerFromList"><span>＋</span>新增客户</button>
+            </form>
+            <div class="smart-applied-summary" id="smartAppliedSummary" hidden>
+              <span class="smart-summary-icon" aria-hidden="true">✦</span><div><strong>智能结论</strong><p id="smartAppliedText"></p></div><span class="smart-hit-count" id="smartHitCount">命中 0 位客户</span><button type="button" id="clearAppliedSmartFilter">清除查询</button>
+            </div>
+            <div class="customer-table-wrap">
+              <table class="customer-table customer-list-table">
+                <thead><tr><th class="check-cell"><input type="checkbox" id="selectAllCustomers" aria-label="选择当前页全部客户" /></th><th>客户信息</th><th>归属FHO</th><th>社会关系</th><th>下一步</th><th>所在团队</th><th>标记状态</th><th>操作</th></tr></thead>
+                <tbody id="customerRows"></tbody>
+              </table>
+              <div class="empty" id="customerEmpty" hidden>未找到符合条件的客户</div>
+            </div>
+            <footer class="customer-pagination">
+              <div class="selection-summary"><input type="checkbox" id="footerSelectAll" aria-label="选择当前页全部客户" /><span>已选 <b id="selectedCustomerCount">0</b> 项</span><div class="customer-batch-actions" id="customerBatchActions" hidden><button type="button" id="batchJoinTeam">批量入组</button><button type="button" id="exportCustomersExcel">导出 Excel</button></div></div>
+              <div class="page-controls"><span id="customerTotal">共 552 条</span><button class="page-arrow" type="button" aria-label="上一页" disabled>‹</button><button class="active" type="button">1</button><button type="button">2</button><button type="button">3</button><button type="button">4</button><button type="button">5</button><span>···</span><button type="button">56</button><button class="page-arrow" type="button" aria-label="下一页">›</button><select aria-label="每页条数"><option>10 条/页</option><option>20 条/页</option><option>50 条/页</option></select></div>
+            </footer>
           </section>
-          <div class="acquisition-grid">
-            <section class="surface panel-box tools-panel">
-              <div class="section-title"><div><h2>获客工具</h2><p>把服务分享出去，让咨询客户进入你的线索池</p></div><em>优先使用</em></div>
-              <div class="tools-grid"><article><span>▦</span><h3>我的获客码</h3><p>专属咨询入口，自动记录获客归属</p><button class="outline-btn" data-action="qr">查看二维码</button></article><article><span>▤</span><h3>推广素材</h3><p>服务介绍、宣传海报、健康科普</p><button class="outline-btn" data-toast="已打开推广素材库">查看素材</button></article></div>
-              <div class="activity"><div><h3>健康服务咨询活动</h3><p>线下活动、合作渠道的统一线索入口</p></div><button class="outline-btn" data-toast="已打开健康服务咨询活动">查看活动</button></div>
+          <p class="disclaimer">演示说明：页面中的客户资料、服务记录与统计数据均为模拟。</p>
+        </section>
+
+        <section class="page-view" id="patientView" aria-labelledby="patientArchiveTitle">
+          <header class="patient-page-header view-page-heading">
+            <button class="patient-back" id="patientBack" type="button" aria-label="返回全部客户">‹</button>
+            <div class="patient-header-copy"><h1 id="patientArchiveTitle">患者档案</h1><nav class="expert-breadcrumb" id="expertBreadcrumb" aria-label="专家分析当前位置" hidden><button type="button" data-expert-crumb="reports">患者档案</button><span>›</span><strong>专家分析库</strong></nav><p>集中查看患者资料、健康史与当前健康关注</p></div>
+          </header>
+
+          <div class="patient-layout">
+            <aside class="surface patient-rail" aria-label="患者档案导航">
+              <div class="patient-identity-card">
+                <div class="patient-identity-banner" aria-hidden="true"></div>
+                <span class="patient-avatar-large" id="patientAvatar"><img src="./patient-avatar-female.png" alt="患者头像" /></span>
+                <div class="patient-identity-summary"><h2 id="patientRailName">陈梦强</h2><p><span id="patientRailGender">女</span><i></i><span id="patientRailAge">35岁</span></p></div>
+                <small><b id="patientRailPhone">138****8920</b></small>
+              </div>
+              <nav class="patient-subnav">
+                <button class="active" type="button" data-patient-section="basic"><span><svg><use href="#i-membership"/></svg></span><b>基本信息</b></button>
+                <button type="button" data-patient-section="services"><span><svg><use href="#i-bell"/></svg></span><b>客户提醒</b></button>
+                <button type="button" data-patient-section="reports"><span><svg><use href="#i-book"/></svg></span><b>报告文档</b></button>
+              </nav>
+            </aside>
+
+            <div class="patient-main">
+              <section class="surface patient-summary patient-basic-content" data-patient-panel="basic">
+                <div class="patient-profile-visual" aria-hidden="true">
+                  <div class="health-rings"><i></i><i></i><i></i></div>
+                  <img class="patient-portrait-image" src="./patient-avatar-female.png" alt="" />
+                  <div class="vital-chip vital-heart"><svg><use href="#i-heart"/></svg><span><small>静息心率</small><strong>72 <em>bpm</em></strong></span></div>
+                  <div class="vital-chip vital-risk"><svg><use href="#i-alert"/></svg><span><small>健康风险</small><strong>2 <em>项关注</em></strong></span></div>
+                </div>
+                <div class="patient-summary-content">
+                  <div class="patient-name-line">
+                    <div class="patient-name-primary"><h2 id="patientName">张女士</h2><span class="gender-pill" id="patientGender">♀ 女 · 56岁</span><div class="patient-tags"><span id="patientStage">潜在客户</span><span id="patientServiceStatus">未购买</span></div></div>
+                    <div class="patient-archive-actions">
+                      <button class="patient-more-trigger" id="patientMoreTrigger" type="button" aria-expanded="false" aria-haspopup="menu">更多<svg><use href="#i-chevron"/></svg></button>
+                      <div class="patient-more-menu" id="patientMoreMenu" role="menu" hidden><button type="button" role="menuitem" data-toast="已打开基本信息编辑入口">编辑基本信息</button><button type="button" role="menuitem" data-toast="已打开健康史编辑入口">编辑健康史</button><button type="button" role="menuitem" data-toast="已打开档案变更记录">查看变更记录</button></div>
+                    </div>
+                  </div>
+                  <div class="patient-info-columns">
+                    <section>
+                      <h3><svg aria-hidden="true"><use href="#i-user"/></svg>基本信息</h3>
+                      <dl class="patient-detail-list">
+                        <div><dt>出生年月</dt><dd id="patientBirthday">1970年5月</dd></div>
+                        <div><dt>手机号</dt><dd id="patientPhone">138****8920</dd></div>
+                        <div><dt>证件类型</dt><dd>身份证</dd></div>
+                        <div><dt>婚姻状况</dt><dd>已婚</dd></div>
+                        <div><dt>职业</dt><dd id="patientOccupation">企业职员</dd></div>
+                        <div><dt>常住地址</dt><dd>广东省广州市</dd></div>
+                      </dl>
+                    </section>
+                    <section>
+                      <h3><svg aria-hidden="true"><use href="#i-heart"/></svg>健康史</h3>
+                      <dl class="patient-detail-list health-history">
+                        <div><dt>疾病史</dt><dd>高血压（5年）、血脂偏高</dd></div>
+                        <div><dt>手术史</dt><dd>无重大手术史</dd></div>
+                        <div><dt>过敏史</dt><dd>青霉素</dd></div>
+                        <div><dt>家族史</dt><dd>父亲高血压</dd></div>
+                        <div><dt>用药史</dt><dd>氨氯地平 5mg/日</dd></div>
+                        <div><dt>生活方式</dt><dd>偶尔饮酒，不吸烟</dd></div>
+                      </dl>
+                    </section>
+                  </div>
+                </div>
+              </section>
+
+              <section class="patient-detail-workspace patient-basic-content" data-patient-panel="basic">
+                <nav class="surface patient-detail-tabs" role="tablist" aria-label="患者档案内容分类">
+                  <button class="active" id="patientTabOverview" type="button" role="tab" aria-selected="true" aria-controls="patientPanelOverview" data-patient-detail-tab="overview"><svg aria-hidden="true"><use href="#i-user"/></svg>客户概览</button>
+                  <button id="patientTabRelations" type="button" role="tab" aria-selected="false" aria-controls="patientPanelRelations" data-patient-detail-tab="relations"><svg aria-hidden="true"><use href="#i-users"/></svg>家庭关系</button>
+                  <button id="patientTabPortrait" type="button" role="tab" aria-selected="false" aria-controls="patientPanelPortrait" data-patient-detail-tab="portrait"><svg aria-hidden="true"><use href="#i-heart"/></svg>健康画像</button>
+                  <button id="patientTabMetrics" type="button" role="tab" aria-selected="false" aria-controls="patientPanelMetrics" data-patient-detail-tab="metrics"><svg aria-hidden="true"><use href="#i-report-chart"/></svg>指标看板</button>
+                </nav>
+
+                <div class="patient-detail-panels">
+                  <section class="surface patient-detail-panel customer-overview-panel" id="patientPanelOverview" role="tabpanel" aria-labelledby="patientTabOverview" data-patient-detail-panel="overview">
+                    <section class="overview-ai-summary">
+                      <header class="overview-section-heading"><h2><i class="ai-title-spark" aria-hidden="true">✦</i>AI 客户综合摘要</h2><span>由 AI 总结 · 更新于 11-18 10:30 <svg><use href="#i-alert"/></svg></span></header>
+                      <div class="overview-ai-narrative"><span>AI 总结</span><p id="aiOverviewSummaryText">客户希望先理解体检异常，再制定可执行的长期健康管理计划；当前应优先回应重复检查顾虑，并通过微信在下班后完成服务说明与首次转化沟通。</p><div class="overview-ai-art" aria-hidden="true"><svg viewBox="0 0 132 96"><path d="M28 18h60l17 16v49H28z"/><path d="M88 18v18h17"/><path d="M42 38h34M42 50h48"/><rect x="42" y="64" width="9" height="13" rx="2"/><rect x="57" y="57" width="9" height="20" rx="2"/><rect x="72" y="48" width="9" height="29" rx="2"/><path class="heart" d="M96 54c-8-6-14 5 0 14 14-9 8-20 0-14Z"/></svg></div></div>
+                      <div class="overview-ai-directions">
+                        <article><i><svg><use href="#i-benefit-headset"/></svg></i><div><strong>客户需求</strong><p id="aiDirectionNeed">希望了解体检结果，并制定后续健康管理计划。</p></div></article>
+                        <article><i><svg><use href="#i-heart"/></svg></i><div><strong id="aiDirectionFocusLabel">当前健康管理重点</strong><p id="aiDirectionFocus">关注体检中的异常指标，建议结合专家评估制定管理方案。</p></div></article>
+                        <article><i><svg><use href="#i-alert"/></svg></i><div><strong>客户顾虑</strong><p id="aiDirectionConcern">担心重复检查，希望先解释现有报告。</p></div></article>
+                        <article><i><svg><use href="#i-chat"/></svg></i><div><strong>联系偏好</strong><p id="aiDirectionContact">微信优先，工作日 18:00 后联系。</p></div></article>
+                      </div>
+                    </section>
+                    <section class="overview-service-zone">
+                      <section class="service-conversion-card">
+                        <header><h3><svg><use href="#i-growth"/></svg><span id="serviceSectionTitle">服务转化</span></h3><span id="serviceConversionStatus">未购买 · 推荐服务</span></header>
+                        <div class="service-owner-row">
+                          <div class="service-owner-card"><small>当前归属</small><strong id="serviceOwnerName">二级FHO-A1</strong><p id="serviceOwnerTeam">家庭健康管理一组</p></div>
+                          <button class="record-service-intent" id="recordServiceRecommendation" type="button" data-record-service-intent><svg><use href="#i-chat"/></svg>记录服务</button>
+                        </div>
+                      </section>
+                      <section class="service-recommendation-card"><div class="service-recommendation-heading"><strong>AI 服务推荐</strong><span>结合客户需求、健康重点、顾虑与服务状态生成</span></div><div class="service-conversion-state" id="serviceConversionState" aria-live="polite"></div></section>
+                    </section>
+                    <div class="overview-dashboard-grid" id="overviewDashboard">
+                      <section class="overview-watch-card overview-full-row" id="overviewWatchSection">
+                        <header class="overview-card-heading"><h3>待关注事项（3）</h3><button type="button" data-toast="已打开全部待关注事项">查看全部 <svg><use href="#i-arrow-right"/></svg></button></header>
+                        <div class="overview-watch-list overview-watch-row"><article><i class="urgent"></i><div><strong>核对本周健康数据</strong><p>计划时间：11月21日 18:30</p></div><em class="danger">待跟进</em></article><article><i></i><div><strong>完成本次健康随访</strong><p>计划时间：11月23日</p></div><em>待执行</em></article><article><i></i><div><strong>跟进管理建议执行情况</strong><p>计划时间：11月25日</p></div><em class="muted">未开始</em></article></div>
+                      </section>
+                      <section class="overview-management-card overview-full-row" id="overviewManagementSection">
+                        <header class="overview-card-heading"><h3>健康管理与服务情况</h3><button type="button" data-toast="已打开健康管理与服务详情">查看详情 <svg><use href="#i-arrow-right"/></svg></button></header>
+                        <div class="overview-management-body">
+                          <div class="overview-management-health"><span><svg><use href="#i-heart"/></svg>健康管理</span><dl><div><dt>当前计划</dt><dd id="overviewPlanName">高血压健康管理计划</dd></div><div><dt>管理重点</dt><dd id="overviewHealthFocus">血压趋势、用药依从性与生活方式</dd></div><div><dt>最近随访</dt><dd id="overviewLastFollow">11月14日 · 已完成健康评估</dd></div></dl></div>
+                          <div class="overview-management-service"><span><svg><use href="#i-calendar"/></svg>订阅服务</span><div><strong id="overviewServiceName">高血压健康管理（3个月）</strong><em id="overviewServiceStatus">服务中</em></div><p id="overviewServicePeriod">服务周期：2026-09-01 ～ 2026-11-30</p><div class="overview-merged-progress"><i id="overviewServiceProgress" style="width:68%"></i><span id="overviewServiceProgressText">履约 68%</span></div></div>
+                        </div>
+                      </section>
+                      <section class="overview-activity-card overview-full-row" id="overviewActivitySection"><header class="overview-card-heading"><h3>最近动态</h3><button id="toggleOverviewActivities" type="button" aria-expanded="false">展开更多（5） <svg><use href="#i-chevron"/></svg></button></header><ol id="overviewActivityList" class="overview-activity-timeline"></ol></section>
+                    </div>
+                  </section>
+
+                  <section class="surface patient-detail-panel relation-panel" id="patientPanelRelations" role="tabpanel" aria-labelledby="patientTabRelations" data-patient-detail-panel="relations" hidden>
+                    <nav class="relation-view-tabs" aria-label="家庭关系视图"><button class="active" type="button">家庭图谱</button><button type="button" data-toast="已切换至社交与转介绍">社交与转介绍</button></nav>
+                    <div class="relation-toolbar">
+                      <div class="relation-stat-grid"><article><svg><use href="#i-users"/></svg><span>家庭成员<strong id="familyMemberCount">1</strong></span></article><article><svg><use href="#i-report-doc"/></svg><span>已建档<strong id="familyFiledCount">1</strong></span></article><article><svg><use href="#i-heart"/></svg><span>服务中<strong id="familyServingCount">0</strong></span></article><article><svg><use href="#i-calendar"/></svg><span>待跟进<strong id="familyFollowCount">0</strong></span></article></div>
+                    </div>
+                    <div class="family-graph-layout">
+                      <section class="family-graph-card" id="familyGraphCard" aria-label="家庭关系图">
+                        <div class="relation-canvas-actions" aria-label="关系图快捷操作"><button id="addFamilyMember" type="button" aria-label="新增家庭成员" title="新增家庭成员"><svg><use href="#i-plus"/></svg></button><button type="button" aria-label="登记关系" title="登记关系" data-toast="已打开登记关系入口"><svg><use href="#i-edit"/></svg></button></div>
+                        <div class="family-graph-tools"><button id="fitFamilyGraph" type="button"><svg aria-hidden="true"><use href="#i-report-grid"/></svg>适配画布</button><button id="resetFamilyGraph" type="button">重置视图</button><button id="zoomOutFamilyGraph" type="button" aria-label="缩小">−</button><button id="zoomInFamilyGraph" type="button" aria-label="放大">＋</button></div>
+                        <div class="family-graph-viewport" id="familyGraphViewport"><svg class="family-graph-connectors" id="familyGraphConnectors" aria-hidden="true"></svg><div class="family-relation-note-layer" id="familyRelationNoteLayer" aria-label="关系备注"></div><div class="family-tree" id="familyTree"></div></div>
+                      </section>
+                      <aside class="family-member-detail" id="familyMemberDetail"><header><span><svg><use href="#i-user"/></svg><h3>当前选中成员</h3></span><button id="editFamilyMember" type="button"><svg><use href="#i-edit"/></svg>修改</button></header><div class="family-member-name" id="familyMemberName"></div><dl id="familyMemberFields"></dl></aside>
+                    </div>
+                    <section class="referral-table"><header><div><h3>关系记录表</h3><p>查看家庭成员与转介绍关系的最近记录</p></div><button type="button" data-toast="已打开全部关系记录">查看全部 <span>→</span></button></header><div class="referral-table-body"><div class="referral-row referral-head"><span>关系发起人</span><span>关联成员</span><span>关系类型</span><span>客户状态</span><span>记录来源</span><span>更新时间</span><span aria-hidden="true"></span></div><div class="referral-row"><span><b class="relation-record-avatar">张</b>张女士</span><span>王女士</span><span><i>朋友</i></span><span><em>潜在客户</em></span><span>转介绍登记</span><span>11月18日</span><button class="relation-row-more" type="button" aria-label="查看张女士与王女士的关系记录操作" data-toast="已打开关系记录操作">•••</button></div><div class="referral-row"><span><b class="relation-record-avatar male">李</b>李先生</span><span>张女士</span><span><i>配偶</i></span><span><em class="success">已建档</em></span><span>家庭成员</span><span>11月15日</span><button class="relation-row-more" type="button" aria-label="查看李先生与张女士的关系记录操作" data-toast="已打开关系记录操作">•••</button></div><footer class="relation-table-pagination" aria-label="关系记录分页"><button type="button" disabled aria-label="上一页">←</button><span><b>1</b> / 10</span><button type="button" aria-label="下一页" data-toast="已切换至下一页">→</button></footer></div></section>
+                  </section>
+
+                  <section class="surface health-portrait patient-detail-panel" id="patientPanelPortrait" role="tabpanel" aria-labelledby="patientTabPortrait" data-patient-detail-panel="portrait" hidden>
+                <div class="portrait-heading">
+                  <div><h2>健康画像</h2><p>基于当前档案、服务记录与最近随访生成</p></div>
+                  <span>更新于 2026-11-16 10:30</span>
+                </div>
+                <div class="portrait-tabs" role="tablist" aria-label="健康画像分类">
+                  <button class="active" type="button">综合分析</button><button type="button" data-toast="已切换至代谢分析">内分泌代谢 <i>1</i></button><button type="button" data-toast="已切换至神经心理">神经心理</button><button type="button" data-toast="已切换至心血管系统">心血管系统 <i>1</i></button><button type="button" data-toast="已切换至血液免疫">血液免疫</button>
+                </div>
+                <div class="portrait-content">
+                  <section class="health-conclusion">
+                    <div class="conclusion-title"><span>AI</span><div><h3>核心结论</h3><small>仅供健康管理参考，不作为诊断依据</small></div></div>
+                    <p>当前整体健康状态平稳。结合已有资料，建议优先关注血压趋势与代谢指标，并保持规律随访。</p>
+                    <ul><li><b>关注变化：</b>持续记录晨起血压、睡眠和日常活动状态。</li><li><b>完善资料：</b>补充近期体检及化验结果，提升健康画像完整度。</li><li><b>更新解读：</b>健康数据变化后，将自动刷新风险提示与管理建议。</li></ul>
+                  </section>
+                  <section class="attention-section priority-attention">
+                    <div class="attention-title"><h3>优先关注</h3><span>2 项</span></div>
+                    <div class="attention-grid">
+                      <article><span class="attention-index">01</span><div><h4>血压控制</h4><p>近 7 天记录 5 次，平均 148/92 mmHg</p></div><em>较高</em></article>
+                      <article><span class="attention-index">02</span><div><h4>血脂管理</h4><p>最近一次 LDL-C 3.7 mmol/L，建议复查</p></div><em>关注</em></article>
+                    </div>
+                  </section>
+                  <section class="attention-section daily-attention">
+                    <div class="attention-title"><h3>日常关注</h3><span>3 项</span></div>
+                    <div class="attention-grid three">
+                      <article><span class="attention-index">01</span><div><h4>睡眠质量</h4><p>近一周平均睡眠 6.4 小时</p></div></article>
+                      <article><span class="attention-index">02</span><div><h4>运动达标</h4><p>本周完成 3 次中等强度活动</p></div></article>
+                      <article><span class="attention-index">03</span><div><h4>体重趋势</h4><p>最近 30 天体重保持稳定</p></div></article>
+                    </div>
+                  </section>
+                </div>
+                  </section>
+
+                  <section class="surface patient-detail-panel metrics-panel" id="patientPanelMetrics" role="tabpanel" aria-labelledby="patientTabMetrics" data-patient-detail-panel="metrics" hidden>
+                    <header class="detail-panel-heading"><div><h2 id="metricDashboardTitle">综合健康指标看板</h2><p id="metricDashboardSubtitle">通过结果卡与趋势曲线查看关键健康指标</p></div><label class="metric-template-picker"><span>看板模板</span><select id="metricTemplateSelect" aria-label="选择指标看板模板"><option value="comprehensive">综合健康指标看板</option><option value="hypertension">高血压患者指标看板</option><option value="diabetes">糖尿病患者指标看板</option><option value="weight">体重管理指标看板</option></select></label></header>
+                    <div class="metric-summary-grid"><article class="danger" data-metric-card><span><svg><use href="#i-heart"/></svg></span><div><small>平均血压</small><strong>148/92 <em>mmHg</em></strong><p>较目标值偏高</p></div><b>↑ 8.6%</b></article><article class="good" data-metric-card><span><svg><use href="#i-heart"/></svg></span><div><small>静息心率</small><strong>72 <em>bpm</em></strong><p>处于正常范围</p></div><b>稳定</b></article><article class="warning" data-metric-card><span><svg><use href="#i-clock"/></svg></span><div><small>平均睡眠</small><strong>6.4 <em>小时</em></strong><p>距离目标少 0.6 小时</p></div><b>↓ 5.2%</b></article><article class="blue" data-metric-card><span><svg><use href="#i-report-chart"/></svg></span><div><small>当前体重</small><strong>63.2 <em>kg</em></strong><p>近 30 天保持稳定</p></div><b>-0.3kg</b></article></div>
+                    <div class="metric-chart-grid"><section class="blood-pressure-chart"><header><div><h3 id="metricChartTitle">血压趋势</h3><p id="metricChartSubtitle">最近 7 次晨起测量</p></div><span id="metricChartLegend"><i></i><b>收缩压</b><i></i><b>舒张压</b></span></header><div class="line-chart"><div class="chart-grid-lines"><i></i><i></i><i></i><i></i></div><svg id="metricTrendChart" viewBox="0 0 600 190" preserveAspectRatio="none" aria-label="关键指标趋势曲线图"><polyline class="systolic" data-metric-line="primary" points="8,56 105,72 202,43 299,65 396,52 493,78 592,62"/><polyline class="diastolic" data-metric-line="secondary" points="8,133 105,125 202,115 299,128 396,121 493,139 592,130"/><g class="chart-points" id="metricChartPoints"><circle cx="8" cy="56" r="4"/><circle cx="105" cy="72" r="4"/><circle cx="202" cy="43" r="4"/><circle cx="299" cy="65" r="4"/><circle cx="396" cy="52" r="4"/><circle cx="493" cy="78" r="4"/><circle cx="592" cy="62" r="4"/></g></svg><div class="chart-labels"><span>11/10</span><span>11/11</span><span>11/12</span><span>11/13</span><span>11/14</span><span>11/15</span><span>11/16</span></div></div></section></div>
+                  </section>
+                </div>
+              </section>
+
+              <section class="patient-service-workspace" data-patient-panel="services" hidden aria-label="客户提醒与服务档案">
+                <nav class="surface patient-service-tabs" role="tablist" aria-label="客户服务分类">
+                  <button class="active" type="button" role="tab" aria-selected="true" data-service-view="reminders"><svg><use href="#i-bell"/></svg>客户提醒</button>
+                  <button type="button" role="tab" aria-selected="false" data-service-view="archives"><svg><use href="#i-user"/></svg>服务档案</button>
+                </nav>
+
+                <section class="service-panel reminder-panel" data-service-panel="reminders">
+                  <div class="surface reminder-summary-card">
+                    <section class="reminder-labels"><header><h2>客户标签</h2><button type="button" data-toast="已打开标签管理">管理标签</button></header><div><span>基因/分子检测</span><span>营养健康产品</span></div></section>
+                    <article><i class="blue"><svg aria-hidden="true"><use href="#i-report-grid"/></svg></i><div><strong id="reminderTotal">17</strong><span>全部提醒</span></div></article>
+                    <article><i class="blue"><svg aria-hidden="true"><use href="#i-calendar"/></svg></i><div><strong id="reminderPending">7</strong><span>待提醒</span></div></article>
+                    <article><i class="green"><svg aria-hidden="true"><use href="#i-check-circle"/></svg></i><div><strong id="reminderCompleted">10</strong><span>已完成</span></div></article>
+                  </div>
+                  <div class="surface reminder-list-card">
+                    <header class="reminder-toolbar">
+                      <div><select id="reminderTimeFilter" aria-label="时间筛选"><option value="">全部时间</option><option value="2026年09月">2026年09月</option><option value="2026年10月">2026年10月</option><option value="2026年11月">2026年11月</option></select><select id="reminderTypeFilter" aria-label="类型筛选"><option value="">全部类型</option><option>基因/分子检测</option><option>营养健康产品</option><option>专家建议</option></select><select id="reminderStatusFilter" aria-label="状态筛选"><option value="">全部状态</option><option value="pending">待提醒</option><option value="completed">已完成</option></select><button type="button" id="reminderSortButton" data-order="asc"><span>按时间升序</span><svg aria-hidden="true"><use href="#i-report-chart"/></svg></button></div>
+                      <button class="primary" type="button" id="addReminderButton"><svg aria-hidden="true"><use href="#i-plus"/></svg>新增提醒</button>
+                    </header>
+                    <div class="reminder-timeline" id="reminderTimeline">
+                      <section class="reminder-month" data-month="2026年09月"><h3>⌄　2026年09月</h3><div class="reminder-row" data-reminder-status="completed" data-reminder-type="基因/分子检测"><time><strong>09月15日</strong><span>09:00</span></time><div class="reminder-copy"><b>联系客户，确认检测安排</b><p>检测时间和注意事项已确认。</p></div><em>基因/分子检测</em><span class="reminder-state done">● 已完成</span><small>完成时间：2026/09/15 10:10</small></div><div class="reminder-row" data-reminder-status="completed" data-reminder-type="基因/分子检测"><time><strong>09月20日</strong><span>10:00</span></time><div class="reminder-copy"><b>确认检测样本已送检</b><p>样本状态已确认。</p></div><em>基因/分子检测</em><span class="reminder-state done">● 已完成</span><small>完成时间：2026/09/20 11:30</small></div></section>
+                      <section class="reminder-month" data-month="2026年10月"><h3>⌄　2026年10月</h3><div class="reminder-row" data-reminder-status="completed" data-reminder-type="基因/分子检测"><time><strong>10月16日</strong><span>09:00</span></time><div class="reminder-copy"><b>联系客户确认检测目的及资料</b><p>确认检测目的，并提醒客户准备所需资料。</p></div><em>基因/分子检测</em><span class="reminder-state done">● 已完成</span><small>完成时间：2026/10/16 17:17</small></div><div class="reminder-row" data-reminder-status="completed" data-reminder-type="营养健康产品"><time><strong>10月16日</strong><span>10:00</span></time><div class="reminder-copy"><b>联系客户，确认产品签收及使用情况</b><p>签收当天确认产品是否顺利签收，并说明使用注意事项。</p></div><em>营养健康产品</em><span class="reminder-state done">● 已完成</span><small>完成时间：2026/10/21 18:20</small></div><div class="reminder-row" data-reminder-status="completed" data-reminder-type="营养健康产品"><time><strong>10月19日</strong><span>10:00</span></time><div class="reminder-copy"><b>了解使用情况</b><p>签收后第3天了解客户的实际使用情况。</p></div><em>营养健康产品</em><span class="reminder-state done">● 已完成</span><small>完成时间：2026/10/21 18:20</small></div><div class="reminder-row" data-reminder-status="completed" data-reminder-type="基因/分子检测"><time><strong>10月20日</strong><span>09:00</span></time><div class="reminder-copy"><b>提醒主理人核对采样安排</b><p>核对采样时间、地点及负责人。</p></div><em>基因/分子检测</em><span class="reminder-state done">● 已完成</span><small>完成时间：2026/10/19 14:37</small></div><div class="reminder-row" data-reminder-status="pending" data-reminder-type="基因/分子检测"><time><strong>10月25日</strong><span>10:00</span></time><div class="reminder-copy"><b>联系客户确认采样情况</b><p>确认客户是否已完成采样及样本状态。</p></div><em>基因/分子检测</em><span class="reminder-state pending">● 待提醒</span><button class="reminder-more" type="button" data-toast="已打开提醒操作">•••</button></div></section>
+                      <section class="reminder-month" data-month="2026年11月"><h3>⌄　2026年11月</h3><div class="reminder-row" data-reminder-status="pending" data-reminder-type="基因/分子检测"><time><strong>11月01日</strong><span>09:00</span></time><div class="reminder-copy"><b>跟进机构检测报告</b><p>向检测机构确认报告进度及预计出具时间。</p></div><em>基因/分子检测</em><span class="reminder-state pending">● 待提醒</span><button class="reminder-more" type="button" data-toast="已打开提醒操作">•••</button></div><div class="reminder-row" data-reminder-status="pending" data-reminder-type="专家建议"><time><strong>11月10日</strong><span>09:00</span></time><div class="reminder-copy"><b>联系专家安排报告解读</b><p>协调专家解读时间，并准备检测报告。</p></div><em>专家建议</em><span class="reminder-state pending">● 待提醒</span><button class="reminder-more" type="button" data-toast="已打开提醒操作">•••</button></div><div class="reminder-row" data-reminder-status="pending" data-reminder-type="专家建议"><time><strong>11月15日</strong><span>09:00</span></time><div class="reminder-copy"><b>联系客户反馈专家建议</b><p>向客户同步专家解读结论与健康建议。</p></div><em>专家建议</em><span class="reminder-state pending">● 待提醒</span><button class="reminder-more" type="button" data-toast="已打开提醒操作">•••</button></div></section>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="service-panel archive-panel" data-service-panel="archives" hidden>
+                  <aside class="surface archive-list"><label><input id="archiveSearch" type="search" placeholder="请输入专家资料名称"/><svg><use href="#i-search"/></svg></label><select id="archiveTimeFilter"><option value="">全部时间</option><option>2024年10月</option><option>2024年09月</option><option>2024年08月</option></select><div id="archiveItems"><button class="active" type="button" data-archive-title="高血压健康管理专家建议" data-archive-date="2024-10-15" data-archive-note="针对近期血压波动情况给出的管理建议"><strong>高血压健康管理专家建议</strong><span>2024-10-15</span></button><button type="button" data-archive-title="血脂异常调整建议" data-archive-date="2024-09-10" data-archive-note="结合血脂指标提供的饮食与复查建议"><strong>血脂异常调整建议</strong><span>2024-09-10</span></button><button type="button" data-archive-title="糖尿病饮食管理建议" data-archive-date="2024-08-21" data-archive-note="日常膳食结构与血糖监测建议"><strong>糖尿病饮食管理建议</strong><span>2024-08-21</span></button><button type="button" data-archive-title="心血管复查建议" data-archive-date="2024-07-15" data-archive-note="心血管指标复查与长期管理建议"><strong>心血管复查建议</strong><span>2024-07-15</span></button></div></aside>
+                  <article class="surface archive-detail"><header><h2 id="archiveDetailTitle">高血压健康管理专家建议</h2><div><button type="button" id="parseArchiveButton">解析报告 <i>5</i></button><button class="primary" type="button" id="uploadArchiveButton">＋ 上传资料</button></div></header><section><h3>基本信息</h3><div class="archive-info-grid"><dl><dt>名称</dt><dd id="archiveDetailName">高血压健康管理专家建议</dd></dl><dl><dt>报告时间</dt><dd id="archiveDetailDate">2024-10-15</dd></dl><dl class="wide"><dt>备注</dt><dd id="archiveDetailNote">针对近期血压波动情况给出的管理建议</dd></dl></div></section><section><h3>原始文件 <small>共 1 个文件</small></h3><div class="archive-file"><b>PDF</b><span><strong id="archiveFileName">高血压健康管理专家建议.pdf</strong><small>2.3MB</small></span></div></section><section><h3>关联报告 <em>（3）</em></h3><div class="related-reports"><article>▤ <span><strong>血常规检查报告</strong><small>2024-10-01</small></span></article><article>▤ <span><strong>心电图检查报告</strong><small>2024-10-08</small></span></article><article>▤ <span><strong>血压监测记录</strong><small>2024-10-10</small></span></article></div></section><section class="ai-service-reminder"><h3><b>AI</b> AI服务提醒 <small>提醒任务已自动生成，状态与任务中心同步</small></h3><div class="ai-reminder-row"><time>2024-10-16 08:00</time><span><strong>血压监测提醒</strong><small>建议每日早晚监测血压，连续记录2周。</small></span><em>待提醒</em></div></section></article>
+                </section>
+              </section>
+
+              <section class="patient-report-workspace" data-patient-panel="reports" hidden aria-labelledby="patientReportTitle">
+                <section class="surface report-overview-panel">
+                  <header class="patient-report-header">
+                    <div class="patient-report-title">
+                      <span class="patient-report-title-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span>
+                      <div><h2 id="patientReportTitle">报告文档</h2><small>管理客户健康报告与服务总结</small></div>
+                    </div>
+                    <div class="patient-report-actions">
+                      <button class="report-expert-button" type="button" data-report-expert><svg aria-hidden="true"><use href="#i-book"/></svg><span>专家分析库</span></button>
+                      <button class="report-generate-button" id="reportCustomButton" type="button" aria-haspopup="dialog" aria-controls="customReportDrawer"><svg aria-hidden="true"><use href="#i-plus"/></svg>自定义报告</button>
+                    </div>
+                  </header>
+                  <section class="report-template-library" aria-labelledby="reportTemplateTitle">
+                    <header class="report-template-heading">
+                      <div><h3 id="reportTemplateTitle">常用报告模板库</h3><p>选择报告类型，快速开始生成</p></div>
+                      <button id="reportTemplateToggle" type="button" aria-expanded="false" aria-controls="reportTemplateGrid"><span>全部 8 个模板</span><b>展开</b><i>⌄</i></button>
+                    </header>
+                    <div class="report-template-grid-wrap" id="reportTemplateGrid">
+                      <div class="report-template-grid">
+                        <button class="report-template-card blue" type="button" data-report-template="单次资料分析"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>单次资料分析</strong><small>解读单次体检或检测资料</small><em>基础报告 · 可直接使用</em></button>
+                        <button class="report-template-card violet" type="button" data-report-template="健康变化与趋势"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-report-chart"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>健康变化与趋势</strong><small>对比历次记录，识别变化趋势</small><em>趋势报告 · 可直接使用</em></button>
+                        <button class="report-template-card cyan" type="button" data-report-template="专项健康管理"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-report-stethoscope"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>专项健康管理</strong><small>聚焦专项问题，梳理管理重点</small><em>专项报告 · 可直接使用</em></button>
+                        <button class="report-template-card amber" type="button" data-report-template="就医决策支持"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-report-cross"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>就医决策支持</strong><small>汇总关键信息，辅助就医沟通</small><em>决策报告 · 可直接使用</em></button>
+                        <button class="report-template-card green" type="button" data-report-template="综合健康管理"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-report-layers"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>综合健康管理</strong><small>整合多维资料，形成综合报告</small><em>综合报告 · 可直接使用</em></button>
+                        <button class="report-template-card rose" type="button" data-report-template="阶段健康管理复盘"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>阶段健康管理复盘</strong><small>回顾阶段目标、过程与管理成效</small><em>复盘报告 · 可直接使用</em></button>
+                        <button class="report-template-card indigo" type="button" data-report-template="个性化健康检查规划"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-check-circle"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>个性化健康检查规划</strong><small>结合健康风险与需求规划检查项目</small><em>规划报告 · 可直接使用</em></button>
+                        <button class="report-template-card teal" type="button" data-report-template="生活方式与营养管理"><span class="report-template-icon"><svg aria-hidden="true"><use href="#i-heart"/></svg></span><i><svg aria-hidden="true"><use href="#i-report-arrow"/></svg></i><strong>生活方式与营养管理</strong><small>围绕饮食、运动与生活习惯提供建议</small><em>指导报告 · 可直接使用</em></button>
+                      </div>
+                    </div>
+                  </section>
+                  <button class="report-expert-callout" type="button" data-report-expert><span class="report-expert-callout-icon"><svg aria-hidden="true"><use href="#i-book"/></svg></span><span class="report-expert-callout-copy"><strong>专家分析库</strong><small>按功能发现专业分析，先看样例，再按需选择</small></span><span class="report-expert-callout-action">浏览分析库 <i>→</i></span></button>
+                </section>
+
+                <section class="surface report-management-panel" aria-label="报告查询与列表">
+                  <form class="report-filter-bar" id="reportFilterForm">
+                    <label><input id="reportNameFilter" type="search" aria-label="报告名称" placeholder="请输入报告名称" autocomplete="off" /></label>
+                    <label><select id="reportStatusFilter" aria-label="发布状态"><option value="">全部发布状态</option><option value="已发布">已发布</option><option value="待发布">待发布</option></select></label>
+                    <button class="report-query-button" type="submit">查询</button>
+                    <button class="report-reset-button" id="reportResetButton" type="button">重置</button>
+                    <span class="report-filter-count" aria-live="polite">共 <b id="reportResultCount">10</b> 份报告</span>
+                  </form>
+
+                  <section class="report-list-panel">
+                    <div class="report-table-wrap">
+                      <table class="patient-report-table">
+                      <thead><tr><th>报告名称</th><th>报告时间 <span class="report-sort">↕</span></th><th>状态</th><th>操作</th></tr></thead>
+                      <tbody id="patientReportRows">
+                        <tr data-report-name="2026年第三季度健康管理总结" data-report-status="待发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>2026年第三季度健康管理总结</strong></td><td><time>2026/10/11 16:42:18</time></td><td><span class="report-status pending"><i></i>待发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="心脑血管疾病风险评估报告" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>心脑血管疾病风险评估报告</strong></td><td><time>2026/10/08 10:26:43</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="血压管理阶段随访报告" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>血压管理阶段随访报告</strong></td><td><time>2026/09/26 15:18:07</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="年度体检报告综合解读" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>年度体检报告综合解读</strong></td><td><time>2026/09/12 09:35:26</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="糖尿病风险筛查报告" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>糖尿病风险筛查报告</strong></td><td><time>2026/08/29 14:07:51</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="用药依从性评估报告" data-report-status="待发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>用药依从性评估报告</strong></td><td><time>2026/08/16 11:24:09</time></td><td><span class="report-status pending"><i></i>待发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="营养与体重管理评估报告" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>营养与体重管理评估报告</strong></td><td><time>2026/07/30 17:05:32</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="睡眠健康评估报告" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>睡眠健康评估报告</strong></td><td><time>2026/07/09 13:46:20</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="健康管理方案执行总结" data-report-status="已发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>健康管理方案执行总结</strong></td><td><time>2026/06/18 10:12:44</time></td><td><span class="report-status published"><i></i>已发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                        <tr data-report-name="复诊前健康状况评估报告" data-report-status="待发布"><td><span class="report-doc-icon"><svg aria-hidden="true"><use href="#i-report-doc"/></svg></span><strong>复诊前健康状况评估报告</strong></td><td><time>2026/05/27 16:31:05</time></td><td><span class="report-status pending"><i></i>待发布</span></td><td class="report-row-action"><button class="report-preview-button" type="button" data-toast="正在预览报告">预览</button><i></i><button type="button" data-report-more aria-expanded="false">更多⌄</button></td></tr>
+                      </tbody>
+                      </table>
+                      <div class="report-empty-state" id="reportEmptyState" hidden><span>⌕</span><h3>没有匹配的报告</h3><p>请调整报告名称或发布状态后重新查询</p><button type="button" data-report-reset-empty>清空筛选条件</button></div>
+                    </div>
+                    <footer class="report-list-footer"><span>当前展示 <b id="reportVisibleCount">10</b> 条</span><div><button type="button" disabled>‹</button><button class="active" type="button">1</button><button type="button" disabled>›</button></div></footer>
+                  </section>
+                </section>
+              </section>
+
+              <section class="patient-expert-workspace" data-patient-panel="experts" hidden aria-labelledby="expertLibraryTitle">
+                <header class="surface expert-library-hero" data-expert-view="library">
+                  <div class="expert-library-title"><button class="expert-library-back" type="button" data-expert-library-back aria-label="返回报告文档"><i aria-hidden="true">‹</i></button><span><svg aria-hidden="true"><use href="#i-report-layers"/></svg></span><div><h2 id="expertLibraryTitle">专家分析库</h2><p>选择专业分析模板，获得更深入的健康分析与管理建议</p></div></div>
+                  <div class="expert-library-art" aria-hidden="true"><i></i><b></b><span></span></div>
+                  <div class="expert-library-actions"><button class="expert-rights-button" id="expertRightsButton" type="button">我的分析权益 <span>›</span></button></div>
+                </header>
+                <section class="surface expert-library-panel" data-expert-view="library">
+                  <header class="expert-library-toolbar"><nav class="expert-tabs" aria-label="一级分类"><button class="active" type="button" data-expert-tab="全部模板">全部模板</button><button type="button" data-expert-tab="综合健康">综合健康</button><button type="button" data-expert-tab="健康趋势">健康趋势</button><button type="button" data-expert-tab="专项健康">专项健康</button><button type="button" data-expert-tab="生活方式">生活方式</button><button type="button" data-expert-tab="管理成效">管理成效</button></nav><label class="expert-search"><svg aria-hidden="true"><use href="#i-search"/></svg><input id="expertSearch" type="search" placeholder="搜索分析名称、关键词" /></label></header>
+                  <div class="expert-library-summary"><h3>分析方案 <span id="expertResultCount">6 项</span></h3><div><select id="expertStatusFilter" aria-label="购买状态"><option value="">全部购买状态</option><option>已购买</option><option>未购买</option></select><select id="expertSort" aria-label="分析排序"><option value="default">默认排序</option><option value="priceAsc">价格从低到高</option><option value="priceDesc">价格从高到低</option><option value="name">按名称排序</option></select></div></div>
+                  <div class="expert-analysis-grid expert-analysis-flat" id="expertAnalysisGrid">
+                      <article class="expert-analysis-card blue" data-expert-name="多次体检趋势分析" data-expert-category="健康趋势" data-expert-status="已购买" data-expert-price="299"><div class="expert-card-heading"><span><svg><use href="#i-report-chart"/></svg></span><div><p><em>健康趋势</em><small>V1.2</small></p><h3>多次体检趋势分析</h3></div></div><p class="expert-card-desc">整合多次体检数据，分析关键指标的变化趋势与健康状况演变。</p><div class="expert-card-tags"><span>多次体检</span><span>指标对比</span><span>异常提示</span></div><ul><li>主要指标变化趋势与评估</li><li>持续异常与重点关注</li><li>复查与后续管理建议</li></ul><div class="expert-card-price"><strong>¥299</strong><span>/ 年 · 100 次</span><small>按 100 次折算 ¥2.99/次</small></div><footer><button type="button" data-expert-sample>查看方案</button><button class="primary" type="button" data-expert-activate>开始分析</button></footer></article>
+                      <article class="expert-analysis-card violet" data-expert-name="代谢健康专项分析" data-expert-category="专项健康" data-expert-status="未购买" data-expert-price="399"><div class="expert-card-heading"><span><svg><use href="#i-report-stethoscope"/></svg></span><div><p><em>专项健康</em><small>V1.2</small></p><h3>代谢健康专项分析</h3></div></div><p class="expert-card-desc">聚焦血糖、血脂、尿酸、体重等代谢相关指标，评估代谢健康状况。</p><div class="expert-card-tags"><span>血糖</span><span>血脂</span><span>尿酸</span></div><ul><li>代谢指标解读与关联分析</li><li>代谢健康风险评估</li><li>饮食、运动与体重管理建议</li></ul><div class="expert-card-price"><strong>¥399</strong><span>/ 年 · 100 次</span><small>按 100 次折算 ¥3.99/次</small></div><footer><button type="button" data-expert-sample>查看方案</button><button class="primary" type="button" data-expert-activate>购买方案</button></footer></article>
+                      <article class="expert-analysis-card cyan" data-expert-name="综合健康风险分析" data-expert-category="综合健康" data-expert-status="未购买" data-expert-price="499"><div class="expert-card-heading"><span><svg><use href="#i-benefit-diamond"/></svg></span><div><p><em>综合健康</em><small>V1.1</small></p><h3>综合健康风险分析</h3></div></div><p class="expert-card-desc">基于体检与健康史，综合评估整体健康状况与潜在风险。</p><div class="expert-card-tags"><span>健康评估</span><span>风险因素</span><span>管理建议</span></div><ul><li>主要健康问题汇总与解读</li><li>潜在健康风险分析</li><li>健康管理优先级与建议</li></ul><div class="expert-card-price"><strong>¥499</strong><span>/ 年 · 100 次</span><small>按 100 次折算 ¥4.99/次</small></div><footer><button type="button" data-expert-sample>查看方案</button><button class="primary" type="button" data-expert-activate>购买方案</button></footer></article>
+                      <article class="expert-analysis-card rose" data-expert-name="心血管健康专项分析" data-expert-category="专项健康" data-expert-status="未购买" data-expert-price="399"><div class="expert-card-heading"><span><svg><use href="#i-heart"/></svg></span><div><p><em>专项健康</em><small>V1.2</small></p><h3>心血管健康专项分析</h3></div></div><p class="expert-card-desc">关注血压、血脂等心血管相关指标，评估心血管健康状况与风险。</p><div class="expert-card-tags"><span>血压</span><span>血脂</span><span>风险评估</span></div><ul><li>心血管相关指标解读</li><li>心血管风险因素分析</li><li>长期监测与生活方式建议</li></ul><div class="expert-card-price"><strong>¥399</strong><span>/ 年 · 100 次</span><small>按 100 次折算 ¥3.99/次</small></div><footer><button type="button" data-expert-sample>查看方案</button><button class="primary" type="button" data-expert-activate>购买方案</button></footer></article>
+                      <article class="expert-analysis-card green" data-expert-name="生活方式与营养分析" data-expert-category="生活方式" data-expert-status="未购买" data-expert-price="199"><div class="expert-card-heading"><span><svg><use href="#i-heart"/></svg></span><div><p><em>生活方式</em><small>V1.2</small></p><h3>生活方式与营养分析</h3></div></div><p class="expert-card-desc">基于饮食、运动、睡眠等生活方式信息，评估健康行为并提供改进建议。</p><div class="expert-card-tags"><span>饮食</span><span>运动</span><span>睡眠</span></div><ul><li>生活方式评估与问题分析</li><li>营养结构与饮食建议</li><li>运动、睡眠改善方案</li></ul><div class="expert-card-price"><strong>¥199</strong><span>/ 年 · 100 次</span><small>按 100 次折算 ¥1.99/次</small></div><footer><button type="button" data-expert-sample>查看方案</button><button class="primary" type="button" data-expert-activate>购买方案</button></footer></article>
+                      <article class="expert-analysis-card amber" data-expert-name="阶段性健康管理效果分析" data-expert-category="管理成效" data-expert-status="未购买" data-expert-price="299"><div class="expert-card-heading"><span><svg><use href="#i-report-doc"/></svg></span><div><p><em>管理成效</em><small>V1.2</small></p><h3>阶段性健康管理效果分析</h3></div></div><p class="expert-card-desc">对一段时间的健康管理进行评估，总结健康变化与目标达成情况。</p><div class="expert-card-tags"><span>阶段总结</span><span>目标达成</span><span>后续建议</span></div><ul><li>管理前后指标对比与变化分析</li><li>阶段目标完成情况评估</li><li>后续健康管理建议</li></ul><div class="expert-card-price"><strong>¥299</strong><span>/ 年 · 100 次</span><small>按 100 次折算 ¥2.99/次</small></div><footer><button type="button" data-expert-sample>查看方案</button><button class="primary" type="button" data-expert-activate>购买方案</button></footer></article>
+                  </div>
+                  <div class="expert-empty-state" id="expertEmptyState" hidden><span><svg><use href="#i-search"/></svg></span><h3>没有找到匹配的分析</h3><p>请调整搜索关键词、分类或状态后重试</p><button type="button" id="expertResetFilters">清空筛选条件</button></div>
+                </section>
+                <section class="surface expert-orders-page" id="expertOrdersPage" data-expert-view="orders" hidden aria-labelledby="expertOrdersTitle">
+                  <header class="expert-orders-header"><button type="button" data-expert-orders-back aria-label="返回专家分析库">‹</button><div><span>ORDER RECORDS</span><h2 id="expertOrdersTitle">购买订单</h2><p>查看专家分析方案的购买记录、支付状态与有效权益</p></div><button class="expert-orders-buy" type="button" data-expert-orders-buy>继续购买方案</button></header>
+                  <div class="expert-orders-summary"><article><span>全部订单</span><strong id="expertOrderTotal">0</strong><small>份购买记录</small></article><article><span>已开通权益</span><strong id="expertOrderActive">0</strong><small>当前可使用</small></article><article><span>累计实付</span><strong id="expertOrderPaid">¥0</strong><small>已完成支付</small></article></div>
+                  <div class="expert-orders-toolbar"><label><svg aria-hidden="true"><use href="#i-search"/></svg><input id="expertOrderSearch" type="search" placeholder="搜索订单号或分析方案" /></label><select id="expertOrderStatus" aria-label="订单状态"><option value="">全部订单状态</option><option value="已开通">已开通</option><option value="待支付">待支付</option><option value="已到期">已到期</option><option value="已关闭">已关闭</option></select></div>
+                  <div class="expert-orders-list" id="expertOrdersList"></div>
+                  <div class="expert-orders-empty" id="expertOrdersEmpty" hidden><span>⌕</span><h3>没有匹配的订单</h3><p>请调整订单状态或搜索关键词后重试</p><button type="button" data-expert-orders-reset>清空筛选条件</button></div>
+                </section>
+                <section class="expert-detail-page" id="expertDetailPage" data-expert-view="detail" hidden aria-live="polite"></section>
+              </section>
+            </div>
+          </div>
+          <p class="disclaimer">演示说明：页面中的患者资料、健康记录与分析结果均为模拟。</p>
+        </section>
+
+        <section class="page-view" id="managedCustomersView">
+          <header class="page-header managed-page-header view-page-heading">
+            <div><h1>在管客户</h1><p>统一管理客户入组、服务执行与出组记录</p></div>
+            <div class="managed-header-actions">
+              <button class="managed-qr-button" type="button" data-toast="团队入组二维码已打开（演示）" aria-label="打开团队入组二维码">▦</button>
+              <button class="primary-btn" type="button" data-toast="已打开添加客户（演示）"><svg><use href="#i-plus"/></svg>添加客户</button>
+            </div>
+          </header>
+          <section class="surface managed-panel">
+            <div class="managed-team-summary">
+              <div><span class="managed-team-icon"><svg><use href="#i-users"/></svg></span><div><h2>28天体重血糖管理领跑营</h2><p>服务团队：拉法国际建管中心 · 家庭健康管理组</p></div></div>
+              <button type="button" data-toast="已打开入组审核记录（演示）">▤&nbsp; 入组审核记录</button>
+            </div>
+            <div class="managed-toolbar">
+              <div class="managed-tabs" role="tablist" aria-label="客户服务阶段">
+                <button class="active" data-managed-tab="pending" type="button" role="tab" aria-selected="true">待入组 <span>3</span></button>
+                <button data-managed-tab="active" type="button" role="tab" aria-selected="false">管理中 <span>9</span></button>
+                <button data-managed-tab="exited" type="button" role="tab" aria-selected="false">已出组 <span>1</span></button>
+              </div>
+              <div class="managed-tools"><button type="button" data-toast="当前列表已导出（演示）">⇩&nbsp; 导出</button><button type="button" data-toast="已打开表格列设置（演示）">⚙&nbsp; 列设置</button></div>
+            </div>
+            <form class="managed-filters" id="managedFilters">
+              <label class="managed-search"><span class="search-icon" aria-hidden="true"></span><input id="managedKeyword" type="search" placeholder="搜索就诊号、姓名或手机号" /></label>
+              <div class="managed-filter-group" data-managed-filter-group="pending">
+                <label><span>患者来源</span><select id="managedSourceFilter"><option value="">全部来源</option><option>服务包</option><option>医生推荐</option><option>线下活动</option></select></label>
+              </div>
+              <div class="managed-filter-group" data-managed-filter-group="active" hidden>
+                <label class="managed-filter-check"><input id="managedWarningFilter" type="checkbox" /><span>仅看预警待处理</span></label>
+                <label class="managed-filter-check"><input id="managedOverdueFilter" type="checkbox" /><span>仅看任务已逾期</span></label>
+              </div>
+              <div class="managed-filter-group" data-managed-filter-group="exited" hidden>
+                <label><span>出组原因</span><select id="managedExitReasonFilter"><option value="">全部原因</option><option>达标出组</option><option>服务到期</option><option>患者主动退出</option></select></label>
+              </div>
+            </form>
+            <div class="managed-table-wrap">
+              <table class="managed-table" aria-label="在管客户列表">
+                <thead id="managedTableHead"></thead>
+                <tbody id="managedRows"></tbody>
+              </table>
+              <div class="empty" id="managedEmpty" hidden>未找到符合条件的在管客户</div>
+            </div>
+            <footer class="managed-pagination"><span id="managedTotal">共 3 条</span><div><button disabled aria-label="上一页">‹</button><button class="active">1</button><button disabled aria-label="下一页">›</button><select aria-label="每页条数"><option>20 条/页</option><option>50 条/页</option></select></div></footer>
+          </section>
+          <p class="disclaimer">演示说明：页面中的客户资料、服务记录与统计数据均为模拟。</p>
+        </section>
+
+        <section class="page-view" id="acquisitionView">
+          <header class="page-header acquisition-header view-page-heading">
+            <div><h1>获客管理</h1><p>沉淀客户线索，追踪渠道转化，让健康服务触达更多家庭</p></div>
+            <button class="primary-btn" id="myAcquisition" aria-haspopup="dialog"><svg><use href="#i-growth"/></svg>我的获客</button>
+          </header>
+          <section class="stat-grid three acquisition-stats">
+            <article><p>新增线索</p><strong>128</strong><span>本周期新增客户线索</span></article>
+            <article><p>待生效</p><strong>12</strong><span>等待客户确认授权</span></article>
+            <article><p>已纳管</p><strong>18</strong><span>已进入健康管理服务</span></article>
+          </section>
+          <template id="promotionTemplate">
+            <div class="promotion-modal-content">
+              <div class="section-title promotion-title"><div><h2><span class="step-number">1</span> 创建推广入口</h2><p>选择推广内容，生成专属推广链接与二维码。</p></div><span>推广内容可随时更新</span></div>
+              <div class="promotion-types" role="tablist" aria-label="推广类型">
+                <button class="active" type="button" data-promotion-type="机构">推广机构</button>
+                <button type="button" data-promotion-type="服务包">推广服务包</button>
+              </div>
+              <form class="promotion-form" id="promotionForm">
+                <label><span>推广名称</span><input id="promotionName" name="promotionName" value="家庭健康管理服务推广" required /></label>
+                <label><span>推广内容</span><select id="promotionContent" name="promotionContent"><option>FHO机构介绍</option><option>家庭健康管理服务</option><option>综合健康检测服务包</option></select></label>
+                <label><span>推广归属</span><select name="promotionOwner"><option>一级FHO机构A</option><option>一级FHO机构B</option><option>张雷强 · 家庭健康管理师</option></select></label>
+                <button class="generate-btn" type="submit">生成推广码</button>
+              </form>
+            </div>
+          </template>
+          <section class="surface leads-panel">
+            <div class="section-title"><div><h2><span class="step-number">2</span> 我的客户线索</h2></div><span id="resultCount">演示数据</span></div>
+            <div class="tabs lead-tabs"><button class="active" data-status="全部">全部</button><button data-status="待跟进">待跟进</button><button data-status="待生效">待生效</button><button data-status="已纳管">已纳管</button></div>
+            <div class="lead-list" id="leadRows"></div><div class="empty" id="emptyState" hidden>当前分类暂无客户线索</div>
+          </section>
+          <p class="disclaimer">演示说明：页面中的客户与线索数据均为模拟，推广码仅作产品流程演示。</p>
+        </section>
+
+        <section class="page-view my-membership-view" id="myMembershipView" aria-labelledby="myMembershipTitle">
+          <header class="my-membership-header view-page-heading">
+            <div><h1 id="myMembershipTitle">我的会员</h1><p>管理您的会员套餐，查看权益与使用情况</p></div>
+          </header>
+
+          <div class="membership-account-grid">
+          <section class="member-status-card surface">
+            <div class="member-emblem" aria-hidden="true">
+              <i class="emblem-orbit orbit-one"></i><i class="emblem-orbit orbit-two"></i>
+              <span class="emblem-shield"><b><svg><use href="#i-crown"/></svg></b></span>
+            </div>
+            <div class="member-plan-summary">
+              <span class="current-member-label">当前会员</span>
+              <h2>启航会员</h2>
+              <p>独立开展健康管理的个人 FHO</p>
+            </div>
+            <div class="member-meta">
+              <dl>
+                <div><dt><span><svg><use href="#i-heart"/></svg></span>会员状态</dt><dd><em>使用中</em></dd></div>
+                <div><dt><span><svg><use href="#i-calendar"/></svg></span>有效期</dt><dd>2026-11-16 至 2027-11-15 <small>（剩余 364 天）</small></dd></div>
+                <div><dt><span><svg><use href="#i-clock"/></svg></span>续费方式</dt><dd>按年订阅</dd></div>
+              </dl>
+            </div>
+            <div class="member-actions">
+              <button class="primary-member-action" type="button" data-view="membershipPlans"><span><svg><use href="#i-growth"/></svg></span>升级会员</button>
+              <button type="button" data-purchase-plan="starter" data-purchase-return="myMembership" data-purchase-mode="renew"><span><svg><use href="#i-clock"/></svg></span>续费会员</button>
+            </div>
+          </section>
+
+          <section class="surface points-account-card">
+            <div class="points-account-heading"><div><span>积分账户</span><h2>我的积分</h2></div><button type="button" data-view="pointsDetails">使用记录 <b>›</b></button></div>
+            <div class="points-account-values">
+              <div class="available-points"><small>当前可用积分</small><strong>1,580</strong><span>可用于 AI 能力调用</span></div>
+              <div><small>累计积分总额</small><strong>2,500</strong><span>赠送 2,000 + 充值 500</span></div>
+            </div>
+            <div class="points-account-actions">
+              <button type="button" data-view="pointsMall">充值积分</button>
+              <p>已使用 <b>920</b> 积分</p>
+            </div>
+          </section>
+          </div>
+
+          <section class="surface usage-panel">
+            <div class="membership-section-title"><h2>核心权益与使用情况</h2><button type="button" data-view="membershipPlans">查看全部权益 <span>›</span></button></div>
+            <div class="usage-grid">
+              <article>
+                <span class="usage-icon"><svg><use href="#i-users"/></svg></span>
+                <div><h3>成员席位</h3><strong>1 <small>/ 1 个</small></strong><div class="usage-progress"><i style="width:100%"></i></div><em>100%</em></div>
+              </article>
+              <article>
+                <span class="usage-icon"><svg><use href="#i-user"/></svg></span>
+                <div><h3>在管客户</h3><strong>120 <small>/ 300 位</small></strong><div class="usage-progress"><i style="width:40%"></i></div><em>40%</em></div>
+              </article>
+              <article>
+                <span class="usage-icon violet"><svg><use href="#i-gift"/></svg></span>
+                <div><h3>每月赠送积分</h3><strong>2,000 <small>积分 / 月</small></strong></div>
+              </article>
+              <article>
+                <span class="usage-icon cyan"><svg><use href="#i-chat"/></svg></span>
+                <div><h3>运营支持</h3><strong class="support-copy">标准运营指引</strong></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="surface account-records-panel">
+            <div class="membership-section-title"><div><h2>账户记录</h2><p>演示记录：查看会员开通、积分充值及账户入账明细</p></div><button type="button" id="viewAllAccountRecords">查看全部记录 <span>›</span></button></div>
+            <div class="account-records-table-wrap">
+              <table class="account-records-table">
+                <thead><tr><th>业务类型</th><th>记录内容</th><th>购买数量 / 会员周期</th><th>订单金额</th><th>实付金额</th><th>交易时间</th><th>当前状态</th><th>操作</th></tr></thead>
+                <tbody>
+                  <tr><td><span class="record-type member-order">会员</span></td><td><strong>开通启航会员</strong><small>订单号：HY202611160001</small></td><td>1 年</td><td>¥998.00</td><td><b class="paid-amount">¥998.00</b></td><td>2026-11-16 09:32</td><td><span class="record-status success">已支付</span></td><td><button type="button" data-toast="已打开会员订单详情">查看详情</button></td></tr>
+                  <tr><td><span class="record-type gift-order">赠送</span></td><td><strong>启航会员月度积分</strong><small>随会员开通自动发放</small></td><td>2,000 积分</td><td>¥0.00</td><td><b class="paid-amount">¥0.00</b></td><td>2026-11-16 09:36</td><td><span class="record-status credited">已入账</span></td><td><button type="button" data-toast="已打开积分入账详情">查看详情</button></td></tr>
+                  <tr><td><span class="record-type points-order">积分</span></td><td><strong>充值积分</strong><small>订单号：JF202611160018</small></td><td>500 积分</td><td>¥50.00</td><td><b class="paid-amount">¥50.00</b></td><td>2026-11-16 14:08</td><td><span class="record-status success">已支付</span></td><td><button type="button" data-toast="已打开积分订单详情">查看详情</button></td></tr>
+                  <tr><td><span class="record-type member-order">会员</span></td><td><strong>续费启航会员</strong><small>订单号：HY202611170006</small></td><td>1 年</td><td>¥998.00</td><td><b class="paid-amount">¥0.00</b></td><td>2026-11-17 08:45</td><td><span class="record-status pending">待支付</span></td><td><button type="button" data-toast="已打开续费订单详情">查看详情</button></td></tr>
+                  <tr><td><span class="record-type points-order">积分</span></td><td><strong>充值积分</strong><small>订单号：JF202611170021</small></td><td>1,000 积分</td><td>¥100.00</td><td><b class="paid-amount">¥0.00</b></td><td>2026-11-17 11:20</td><td><span class="record-status reviewing">审核中</span></td><td><button type="button" data-toast="已打开积分审核详情">查看详情</button></td></tr>
+                  <tr><td><span class="record-type points-order">积分</span></td><td><strong>充值积分</strong><small>订单号：JF202611170026</small></td><td>200 积分</td><td>¥20.00</td><td><b class="paid-amount">¥0.00</b></td><td>2026-11-17 15:04</td><td><span class="record-status cancelled">已取消</span></td><td><button type="button" data-toast="已打开取消订单详情">查看详情</button></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+        </section>
+
+        <section class="page-view membership-view" id="membershipPlansView" aria-labelledby="membershipPlansTitle">
+          <header class="view-page-heading">
+            <div><h1 id="membershipPlansTitle">会员套餐</h1><p>对比会员权益与服务容量，选择适合当前业务阶段的方案</p></div>
+          </header>
+          <header class="membership-hero">
+            <span class="membership-eyebrow">MEMBERSHIP BENEFITS</span>
+            <h1><i aria-hidden="true">✦</i> 会员权益总览 <i aria-hidden="true">✦</i></h1>
+            <p>三档会员满足不同运营规模需求，会员订阅 + 每月赠送积分 + AI 增值权益，助力 FHO 高效开展健康管理服务</p>
+            <div class="membership-hero-art" aria-hidden="true">
+              <span class="hero-art-orbit"></span>
+              <span class="hero-art-podium"><i></i></span>
+              <span class="hero-art-card"><svg viewBox="0 0 64 64" fill="none"><path d="m10 22 13 12 9-20 10 20 12-12-6 28H16l-6-28Z" fill="currentColor" opacity=".24" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><path d="M19 53h27M32 14V8M9 18l4 4m42-4-4 4" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><circle cx="32" cy="40" r="4" fill="currentColor"/></svg></span>
+            </div>
+          </header>
+
+          <div class="membership-plan-grid">
+            <article class="membership-plan starter-plan">
+              <div class="current-plan-badge"><span>✓</span> 当前使用</div>
+              <header class="plan-heading">
+                <span class="plan-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M24 7v25M22 11 9 31h13V11Zm4 5 11 15H26V16Z" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="M8 35c5 3 10 3 16 0 6 3 11 3 16 0l-5 7H13l-5-7Z" fill="currentColor" opacity=".9"/></svg></span>
+                <div><h2>启航会员</h2><p>独立开展健康管理的个人 FHO</p></div>
+              </header>
+              <div class="plan-price"><strong>¥998</strong><span>/ 年</span></div>
+              <div class="plan-capacity">
+                <div><span class="capacity-icon">♙</span><small>成员席位</small><strong>1 个</strong></div>
+                <div><span class="capacity-icon">♙</span><small>在管客户</small><strong>300 位</strong></div>
+                <div><span class="capacity-icon">◎</span><small>每月赠送积分</small><strong>2,000</strong></div>
+              </div>
+              <div class="benefit-title"><h3>权益详情</h3></div>
+              <div class="benefit-list">
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-base"/></svg></span><div><h4>基础平台功能</h4><p>待办清单、在管客户、患者健康档案等</p></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-chip"/></svg></span><div><h4>AI 基础权益 <em>（按次扣除积分）</em></h4><ul><li>AI 主理人基础对话（5 积分/次）</li><li>AI 报告解析（20 积分/份）</li><li>AI 营销文案生成（10 积分/次）</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-headset"/></svg></span><div><h4>运营支持</h4><p>标准运营指引</p></div><b>✓</b></section>
+              </div>
+              <button class="plan-action current" type="button" disabled>当前会员</button>
+            </article>
+
+            <article class="membership-plan growth-plan">
+              <header class="plan-heading">
+                <span class="plan-icon" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M8 37V28h8v9M20 37V22h8v15M32 37V15h8v22" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="m9 20 11-8 8 4 11-10m0 0h-8m8 0v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+                <div><h2>成长会员</h2><p>适合小团队运营，提升协作与运营效率</p></div>
+              </header>
+              <div class="plan-price"><strong>¥9,980</strong><span>/ 年</span></div>
+              <div class="plan-capacity">
+                <div><span class="capacity-icon">♙</span><small>成员席位</small><strong>5 个</strong></div>
+                <div><span class="capacity-icon">♙</span><small>在管客户</small><strong>3,000 位</strong></div>
+                <div><span class="capacity-icon">◎</span><small>每月赠送积分</small><strong>20,000</strong></div>
+              </div>
+              <div class="benefit-title"><h3>权益详情 <span>（含启航会员全部权益）</span></h3></div>
+              <div class="benefit-list">
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-base"/></svg></span><div><h4>基础平台功能</h4><ul><li>含启航会员全部基础功能</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-team"/></svg></span><div><h4>团队协作与运营</h4><ul><li>团队管理、成员协作、多成员任务分配</li><li>高级运营分析</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-chip"/></svg></span><div><h4>AI 增强权益 <em>（按次扣除积分）</em></h4><ul><li>AI 健康方案辅助生成（50 积分/次）</li><li>AI 客户运营分析（50 积分/次）</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-headset"/></svg></span><div><h4>运营支持</h4><p>8 小时 / 年运营服务</p></div><b>✓</b></section>
+              </div>
+              <button class="plan-action" type="button" data-purchase-plan="growth"><span>⬆</span> 升级为成长会员</button>
+            </article>
+
+            <article class="membership-plan flagship-plan">
+              <div class="recommend-badge">推荐</div>
+              <header class="plan-heading">
+                <span class="plan-icon crown" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="m7 15 9 8 8-13 8 13 9-8-4 21H11L7 15Z" fill="currentColor" opacity=".22" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/><path d="M13 40h22M24 10V6M6 13l3 3m33-3-3 3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="28" r="3" fill="currentColor"/></svg></span>
+                <div><h2>领航会员</h2><p>面向规模化运营，实现更高效、更智能的管理</p></div>
+              </header>
+              <div class="plan-price"><strong>¥39,800</strong><span>/ 年</span></div>
+              <div class="plan-capacity">
+                <div><span class="capacity-icon">♙</span><small>成员席位</small><strong>20 个</strong></div>
+                <div><span class="capacity-icon">♙</span><small>在管客户</small><strong>15,000 位</strong></div>
+                <div><span class="capacity-icon">◎</span><small>每月赠送积分</small><strong>100,000</strong></div>
+              </div>
+              <div class="benefit-title"><h3>权益详情 <span>（含成长会员全部权益）</span></h3></div>
+              <div class="benefit-list">
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-base"/></svg></span><div><h4>基础平台功能</h4><ul><li>含成长会员全部基础功能</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-team"/></svg></span><div><h4>团队协作与运营</h4><ul><li>多 FHO 协作与规模化运营</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-chip"/></svg></span><div><h4>AI 高级权益 <em>（按次扣除积分）</em></h4><ul><li>AI 批量客户分析（按处理量计费）</li><li>更多高级 AI 能力优先开放</li></ul></div><b>✓</b></section>
+                <section><span class="benefit-icon"><svg aria-hidden="true"><use href="#i-benefit-headset"/></svg></span><div><h4>运营支持</h4><p>24 小时 / 年运营服务，专属顾问支持</p></div><b>✓</b></section>
+              </div>
+              <button class="plan-action" type="button" data-purchase-plan="flagship"><span>⬆</span> 升级为领航会员</button>
+            </article>
+          </div>
+
+          <footer class="points-note surface">
+            <strong><span>ⓘ</span> 积分规则说明</strong>
+            <ol class="points-rule-list">
+              <li><span>1</span><p><b>会员积分</b>按会员等级每月自动发放，仅限当期使用，到期不结转。</p></li>
+              <li><span>2</span><p><b>充值积分</b>可根据实际需要购买，具体有效期以购买协议为准。</p></li>
+              <li><span>3</span><p><b>积分使用</b>用于调用 AI 能力，系统将优先消耗即将到期的积分。</p></li>
+            </ol>
+          </footer>
+        </section>
+
+        <section class="page-view purchase-view" id="purchaseView" aria-labelledby="purchaseTitle">
+          <nav class="purchase-breadcrumb" aria-label="当前位置">会员与积分 <span>›</span> <b id="purchaseBreadcrumbSource">会员套餐</b> <span>›</span> <strong>购买会员套餐</strong></nav>
+          <header class="purchase-hero">
+            <button class="purchase-back" type="button" id="purchaseBack" aria-label="返回上一页">‹</button>
+            <div><h1 id="purchaseTitle">购买会员套餐</h1><p>选择适合的会员套餐，开启更高效的健康管理服务</p></div>
+            <span class="purchase-hero-art" aria-hidden="true">✦</span>
+          </header>
+          <div class="purchase-layout" id="purchaseLayout" data-plan="growth">
+            <section class="purchase-plan-panel surface" aria-labelledby="purchasePlanName">
+              <header class="purchase-plan-header">
+                <span class="purchase-plan-icon" id="purchasePlanIcon" aria-hidden="true"></span>
+                <div><small>已选会员套餐</small><h2 id="purchasePlanName">成长会员</h2><p id="purchasePlanDescription"></p></div>
+              </header>
+              <div class="purchase-capacity" id="purchaseCapacity"></div>
+              <div class="purchase-benefit-heading"><h3>套餐权益</h3><span>会员权益随套餐等级升级</span></div>
+              <div class="purchase-benefits" id="purchaseBenefits"></div>
             </section>
-            <section class="surface panel-box funnel-panel">
-              <div class="section-title"><div><h2>线索转化漏斗</h2><p>可批线索的累计转化 · 演示</p></div></div>
-              <div class="funnel"><article><div><span>新增线索</span><b>128</b></div><i><u style="width:100%"></u></i></article><article><div><span>已联系</span><b>96</b></div><i><u style="width:75%"></u></i><p>累计转化 75.0%</p></article><article><div><span>确认有效需求</span><b>85</b></div><i><u style="width:66.4%"></u></i><p>累计转化 66.4%</p></article><article><div><span>已成交</span><b>18</b></div><i><u style="width:14.1%"></u></i><p>累计转化 14.1%</p></article></div>
+            <form class="purchase-order-stack" id="purchaseForm">
+              <section class="purchase-section surface" aria-labelledby="purchasePeriodTitle">
+                <h2 id="purchasePeriodTitle">付费周期</h2>
+                <div class="purchase-options">
+                  <div class="purchase-option annual-plan"><span class="purchase-radio" aria-hidden="true"></span><span class="purchase-option-copy"><strong>年付</strong><small>一次购买，享全年会员权益</small></span><b id="purchaseYearPrice">¥9,980.00</b></div>
+                </div>
+              </section>
+              <section class="purchase-section surface" aria-labelledby="purchasePaymentTitle">
+                <h2 id="purchasePaymentTitle">选择支付方式</h2>
+                <div class="purchase-options payment-options">
+                  <label class="purchase-option"><input type="radio" name="purchasePayment" value="微信支付" checked /><span class="purchase-radio"></span><span class="payment-mark wechat">微</span><span class="purchase-option-copy"><strong>微信支付</strong><small>使用微信完成支付</small></span></label>
+                  <label class="purchase-option"><input type="radio" name="purchasePayment" value="支付宝" /><span class="purchase-radio"></span><span class="payment-mark alipay">支</span><span class="purchase-option-copy"><strong>支付宝</strong><small>使用支付宝完成支付</small></span></label>
+                </div>
+              </section>
+              <section class="purchase-section purchase-summary surface" aria-labelledby="purchaseOrderTitle">
+                <h2 id="purchaseOrderTitle">订单信息</h2>
+                <dl><div><dt>会员套餐</dt><dd id="purchaseOrderPlan">成长会员</dd></div><div><dt>付费周期</dt><dd id="purchaseOrderPeriod">年付 · 1 年</dd></div><div><dt>支付方式</dt><dd id="purchaseOrderPayment">微信支付</dd></div><div><dt>商品金额</dt><dd id="purchaseOrderPrice">¥9,980.00</dd></div></dl>
+                <div class="purchase-total"><span>应付总额</span><strong id="purchaseOrderTotal">¥9,980.00</strong></div>
+                <button class="purchase-submit" type="submit">立即下单</button>
+                <p>演示下单，不会发起实际扣款</p>
+              </section>
+            </form>
+          </div>
+        </section>
+
+        <section class="page-view purchase-view points-purchase-view" id="pointsPurchaseView" aria-labelledby="pointsPurchaseTitle">
+          <nav class="purchase-breadcrumb" aria-label="当前位置">会员与积分 <span>›</span> 积分商城 <span>›</span> <strong>购买积分套餐</strong></nav>
+          <header class="purchase-hero points-purchase-hero">
+            <button class="purchase-back" type="button" id="pointsPurchaseBack" aria-label="返回积分商城">‹</button>
+            <div><h1 id="pointsPurchaseTitle">购买积分套餐</h1><p>核对积分套餐并选择支付方式，完成后积分将自动到账</p></div>
+            <span class="purchase-hero-art" aria-hidden="true">★</span>
+          </header>
+          <div class="purchase-layout points-purchase-layout" id="pointsPurchaseLayout" data-package="basic">
+            <section class="purchase-plan-panel points-purchase-panel surface" aria-labelledby="pointsPurchasePackageName">
+              <header class="purchase-plan-header points-purchase-plan-header">
+                <span class="purchase-plan-icon points-purchase-plan-icon" aria-hidden="true">★</span>
+                <div><small>已选积分套餐</small><h2 id="pointsPurchasePackageName">基础积分包</h2><p id="pointsPurchasePackageDescription">适合日常 AI 健康服务使用</p></div>
+              </header>
+              <div class="points-purchase-overview">
+                <article><small>购买积分</small><strong id="pointsPurchaseAmount">1,000</strong><span>积分</span></article>
+                <article><small>约可使用</small><strong id="pointsPurchaseReports">50</strong><span>份 AI 报告解析</span></article>
+                <article><small>到账时间</small><strong>即时</strong><span>支付成功后自动入账</span></article>
+              </div>
+              <div class="purchase-benefit-heading"><h3>套餐说明</h3><span>充值积分可用于平台已开放的 AI 能力</span></div>
+              <div class="points-purchase-benefits">
+                <section><span aria-hidden="true">✓</span><div><h4>积分全额到账</h4><p>支付成功后，所购积分将自动计入当前积分账户。</p></div></section>
+                <section><span aria-hidden="true">✦</span><div><h4>AI 能力通用</h4><p>可用于 AI 报告解析、AI 健康分析和智能报告生成。</p></div></section>
+                <section><span aria-hidden="true">▤</span><div><h4>使用记录可查</h4><p>积分获得与消耗记录可在“积分明细”中随时查看。</p></div></section>
+                <section><span aria-hidden="true">◷</span><div><h4>有效期说明</h4><p>充值积分有效期以购买协议为准，系统优先消耗即将到期的积分。</p></div></section>
+              </div>
+            </section>
+            <form class="purchase-order-stack" id="pointsPurchaseForm">
+              <section class="purchase-section surface" aria-labelledby="pointsPurchasePaymentTitle">
+                <h2 id="pointsPurchasePaymentTitle">选择支付方式</h2>
+                <div class="purchase-options payment-options">
+                  <label class="purchase-option"><input type="radio" name="pointsPurchasePayment" value="微信支付" checked /><span class="purchase-radio"></span><span class="payment-mark wechat">微</span><span class="purchase-option-copy"><strong>微信支付</strong><small>使用微信完成支付</small></span></label>
+                  <label class="purchase-option"><input type="radio" name="pointsPurchasePayment" value="支付宝" /><span class="purchase-radio"></span><span class="payment-mark alipay">支</span><span class="purchase-option-copy"><strong>支付宝</strong><small>使用支付宝完成支付</small></span></label>
+                </div>
+              </section>
+              <section class="purchase-section purchase-summary surface" aria-labelledby="pointsPurchaseOrderTitle">
+                <h2 id="pointsPurchaseOrderTitle">订单信息</h2>
+                <dl><div><dt>积分套餐</dt><dd id="pointsPurchaseOrderPackage">基础积分包</dd></div><div><dt>购买积分</dt><dd id="pointsPurchaseOrderAmount">1,000 积分</dd></div><div><dt>支付方式</dt><dd id="pointsPurchaseOrderPayment">微信支付</dd></div><div><dt>商品金额</dt><dd id="pointsPurchaseOrderPrice">¥50.00</dd></div></dl>
+                <div class="purchase-total"><span>应付总额</span><strong id="pointsPurchaseOrderTotal">¥50.00</strong></div>
+                <button class="purchase-submit" type="submit">立即下单</button>
+                <p>演示下单，不会发起实际扣款</p>
+              </section>
+            </form>
+          </div>
+        </section>
+
+        <section class="page-view purchase-view expert-purchase-view" id="expertPurchaseView" aria-labelledby="expertPurchaseTitle">
+          <nav class="purchase-breadcrumb" aria-label="当前位置"><button type="button" data-expert-crumb="reports">患者档案</button><span>›</span><button type="button" data-expert-crumb="library">专家分析库</button><span>›</span><strong>购买分析方案</strong></nav>
+          <header class="purchase-hero expert-purchase-hero">
+            <button class="purchase-back" type="button" id="expertPurchaseBack" aria-label="返回专家分析库">‹</button>
+            <div><h1 id="expertPurchaseTitle">购买分析方案</h1><p>核对分析模板与服务权益，选择支付方式后创建订单</p></div>
+            <span class="purchase-hero-art" aria-hidden="true">ANALYSIS</span>
+          </header>
+          <div class="purchase-layout expert-purchase-layout" id="expertPurchaseLayout">
+            <section class="purchase-plan-panel expert-purchase-panel surface" aria-labelledby="expertPurchaseName">
+              <header class="purchase-plan-header expert-purchase-plan-header">
+                <span class="purchase-plan-icon expert-purchase-plan-icon" aria-hidden="true"><svg><use href="#i-report-layers"/></svg></span>
+                <div><small id="expertPurchaseCategory">健康分析</small><h2 id="expertPurchaseName">代谢健康专项分析</h2><p id="expertPurchaseDescription">聚焦关键健康指标，形成专业分析与管理建议</p></div>
+              </header>
+              <div class="points-purchase-overview expert-purchase-overview">
+                <article><small>分析额度</small><strong>100</strong><span>次专业分析</span></article>
+                <article><small>权益有效期</small><strong>12</strong><span>个月</span></article>
+                <article><small>单次折算</small><strong id="expertPurchaseUnitPrice">¥3.99</strong><span>每次分析</span></article>
+              </div>
+              <div class="purchase-benefit-heading"><h3>方案说明</h3><span id="expertPurchaseBenefitHint">专业分析、报告交付与持续管理建议</span></div>
+              <div class="points-purchase-benefits expert-purchase-benefits" id="expertPurchaseBenefits"></div>
+            </section>
+            <form class="purchase-order-stack" id="expertPurchaseForm">
+              <section class="purchase-section surface" aria-labelledby="expertPurchasePaymentTitle">
+                <h2 id="expertPurchasePaymentTitle">选择支付方式</h2>
+                <div class="purchase-options payment-options">
+                  <label class="purchase-option"><input type="radio" name="expertPurchasePayment" value="微信支付" checked /><span class="purchase-radio"></span><span class="payment-mark wechat">微</span><span class="purchase-option-copy"><strong>微信支付</strong><small>使用微信完成支付</small></span></label>
+                  <label class="purchase-option"><input type="radio" name="expertPurchasePayment" value="支付宝" /><span class="purchase-radio"></span><span class="payment-mark alipay">支</span><span class="purchase-option-copy"><strong>支付宝</strong><small>使用支付宝完成支付</small></span></label>
+                </div>
+              </section>
+              <section class="purchase-section purchase-summary surface" aria-labelledby="expertPurchaseOrderTitle">
+                <h2 id="expertPurchaseOrderTitle">订单信息</h2>
+                <dl><div><dt>分析方案</dt><dd id="expertPurchaseOrderName">代谢健康专项分析</dd></div><div><dt>方案权益</dt><dd>12 个月 · 100 次</dd></div><div><dt>支付方式</dt><dd id="expertPurchaseOrderPayment">微信支付</dd></div><div><dt>商品金额</dt><dd id="expertPurchaseOrderPrice">¥399.00</dd></div></dl>
+                <div class="purchase-total"><span>应付总额</span><strong id="expertPurchaseOrderTotal">¥399.00</strong></div>
+                <button class="purchase-submit" type="submit">立即下单</button>
+                <p>演示下单，不会发起实际扣款</p>
+              </section>
+            </form>
+          </div>
+        </section>
+
+        <section class="page-view points-page" id="pointsMallView" aria-labelledby="pointsMallTitle">
+          <header class="my-membership-header points-mall-page-header view-page-heading">
+            <div><h1 id="pointsMallTitle">积分商城</h1><p>购买积分，解锁更多 AI 健康服务能力</p></div>
+          </header>
+          <header class="points-mall-hero">
+            <div class="points-hero-copy">
+              <strong class="points-hero-kicker">AI 健康服务能力</strong>
+              <ul aria-label="积分可用能力">
+                <li><span aria-hidden="true"><svg class="mall-icon-svg" viewBox="0 0 24 24"><rect x="3" y="13" width="4" height="8" rx="1"/><rect x="10" y="8" width="4" height="13" rx="1"/><rect x="17" y="3" width="4" height="18" rx="1"/></svg></span><div><strong>AI 报告解析</strong><small>专业解读健康报告</small></div></li>
+                <li><span aria-hidden="true"><svg class="mall-icon-svg" viewBox="0 0 24 24"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 16 9 5 9-5"/></svg></span><div><strong>AI 健康分析</strong><small>多维评估健康风险</small></div></li>
+                <li><span aria-hidden="true"><svg class="mall-icon-svg mall-cube-icon" viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5Z"/><path d="m3 7 9 5v10l-9-5V7Z"/><path d="m21 7-9 5v10l9-5V7Z"/></svg></span><div><strong>智能内容生成</strong><small>定制专属健康方案</small></div></li>
+              </ul>
+            </div>
+            <div class="points-hero-art" aria-hidden="true">
+              <i class="points-art-orbit"></i><i class="points-art-disc disc-one"></i><i class="points-art-disc disc-two"></i><i class="points-art-disc disc-three"></i><i class="points-art-coin">★</i><i class="points-art-arrow">↗</i>
+            </div>
+            <div class="points-hero-balance" aria-label="积分余额">
+              <small><span aria-hidden="true">★</span> 当前可用积分</small>
+              <strong>1,580</strong>
+              <button type="button" data-view="pointsDetails">查看积分明细 <b aria-hidden="true">›</b></button>
+            </div>
+          </header>
+
+          <div class="points-package-heading">
+            <div><h2>精选积分套餐</h2><p>超值优惠，满足不同使用需求</p></div>
+            <span><b aria-hidden="true"><svg class="mall-promo-icon" viewBox="0 0 24 24"><path d="M4 10h16v11H4z"/><path d="M2 6h20v4H2zM12 6v15"/><path d="M12 6H7.5A2.5 2.5 0 1 1 10 3.5C10 5 12 6 12 6Zm0 0h4.5A2.5 2.5 0 1 0 14 3.5C14 5 12 6 12 6Z"/></svg></b> 新用户专享：首购立减 50 元</span>
+          </div>
+          <section class="points-package-grid" aria-label="积分充值套餐">
+            <article class="points-package surface">
+              <b class="points-package-tag"><svg viewBox="0 0 24 24"><path d="M3 9h18l-2 11H5L3 9Z"/><path d="m5 9 3-5 4 5 4-5 3 5"/></svg>体验推荐</b>
+              <span class="points-package-icon" aria-hidden="true"><i></i><i></i><i>★</i></span>
+              <header><h3>基础积分包</h3></header>
+              <div class="points-package-amount"><strong>1,000</strong><span>积分</span></div>
+              <p class="points-package-value">约可使用 50 份 AI 报告解析</p>
+              <div class="points-package-price"><strong>¥50</strong></div>
+              <button type="button" data-purchase-points="basic">立即购买</button>
+            </article>
+            <article class="points-package surface">
+              <b class="points-package-tag"><svg viewBox="0 0 24 24"><path d="M7 10v11H3V10h4Zm3 11h7.5a3 3 0 0 0 2.8-1.9l1.5-4A3 3 0 0 0 19 11h-4l1-4.2A3 3 0 0 0 13.1 3L10 10v11Z"/></svg>性价比之选</b>
+              <span class="points-package-icon" aria-hidden="true"><i></i><i></i><i>★</i></span>
+              <header><h3>标准积分包</h3></header>
+              <div class="points-package-amount"><strong>5,000</strong><span>积分</span></div>
+              <p class="points-package-value">约可使用 250 份 AI 报告解析</p>
+              <div class="points-package-price"><strong>¥240</strong></div>
+              <button type="button" data-purchase-points="standard">立即购买</button>
+            </article>
+            <article class="points-package surface">
+              <b class="points-package-tag"><svg viewBox="0 0 24 24"><path d="M13.5 2.5c.3 4-1.7 5.4-3.6 7.4-1.5 1.6-2.4 3.3-2.4 5.6a4.5 4.5 0 0 0 9 0c0-1.7-.7-3.1-1.7-4.4-.3 2-1.2 3-2.4 3.8.3-2.8-1-4.4-2.3-6 2.3-1.5 3.6-3.5 3.4-6.4Z"/></svg>热门推荐</b>
+              <span class="points-package-icon" aria-hidden="true"><i></i><i></i><i>★</i></span>
+              <header><h3>高级积分包</h3></header>
+              <div class="points-package-amount"><strong>10,000</strong><span>积分</span></div>
+              <p class="points-package-value">约可使用 500 份 AI 报告解析</p>
+              <div class="points-package-price"><strong>¥450</strong></div>
+              <button type="button" data-purchase-points="advanced">立即购买</button>
+            </article>
+            <article class="points-package recommended surface">
+              <b class="points-package-tag"><svg viewBox="0 0 24 24"><path d="M4 9 8 4h8l4 5-8 11L4 9Z"/><path d="m8 4 4 16 4-16M4 9h16"/></svg>尊享优选</b>
+              <span class="points-package-icon crown-points" aria-hidden="true"><svg viewBox="0 0 64 52"><path d="M5 15 17 28l15-22 15 22 12-13-5 29H10L5 15Z"/><path d="M12 44h40v5H12z"/><circle cx="5" cy="12" r="4"/><circle cx="32" cy="5" r="4"/><circle cx="59" cy="12" r="4"/></svg></span>
+              <header><h3>超值积分包</h3></header>
+              <div class="points-package-amount"><strong>50,000</strong><span>积分</span></div>
+              <p class="points-package-value">约可使用 2,500 份 AI 报告解析</p>
+              <div class="points-package-price"><strong>¥2,000</strong></div>
+              <button type="button" data-purchase-points="premium">立即购买</button>
+            </article>
+          </section>
+
+          <section class="points-usage-showcase surface" aria-labelledby="pointsUsageTitle">
+            <div class="points-usage-intro"><span aria-hidden="true">AI</span><div><h2 id="pointsUsageTitle">积分能做什么？</h2><p>让每一份积分都转化为实际的 AI 服务价值</p></div></div>
+            <ul>
+              <li><span aria-hidden="true"><svg class="mall-icon-svg" viewBox="0 0 24 24"><path d="M6 3h10l3 3v15H6z"/><path d="M16 3v4h4M9 11h6M9 15h6M9 19h4"/></svg></span><div><strong>AI 报告解析</strong><small>深度解读健康报告</small><b>20 积分 / 份</b></div></li>
+              <li><span aria-hidden="true"><svg class="mall-icon-svg" viewBox="0 0 24 24"><path d="M3 12h4l2-5 4 10 2-5h6"/><path d="M20.8 5.8a5 5 0 0 0-7.1 0L12 7.5l-1.7-1.7a5 5 0 0 0-7.1 7.1L12 21l8.8-8.1a5 5 0 0 0 0-7.1Z"/></svg></span><div><strong>AI 健康分析</strong><small>多维度评估健康风险</small><b>30 积分 / 次</b></div></li>
+              <li><span aria-hidden="true"><svg class="mall-icon-svg" viewBox="0 0 24 24"><path d="M12 2c.8 6.1 3.9 9.2 10 10-6.1.8-9.2 3.9-10 10-.8-6.1-3.9-9.2-10-10 6.1-.8 9.2-3.9 10-10Z"/></svg></span><div><strong>智能报告生成</strong><small>快速生成个性化报告</small><b>50 积分 / 份</b></div></li>
+            </ul>
+            <button type="button" data-toast="更多积分能力即将开放">了解更多 <span aria-hidden="true">›</span></button>
+          </section>
+
+          <section class="points-faq surface" aria-labelledby="pointsFaqTitle">
+            <h2 id="pointsFaqTitle"><span aria-hidden="true">?</span> 购买须知与常见问题</h2>
+            <div><button type="button" data-toast="积分购买后即时到账"><b>1</b>积分购买后多久到账？ <span>›</span></button><button type="button" data-toast="充值积分有效期以购买协议为准"><b>2</b>充值积分的有效期是多久？ <span>›</span></button><button type="button" data-toast="积分可用于平台内已开放的 AI 能力"><b>3</b>积分可以用于哪些功能？ <span>›</span></button><button type="button" data-toast="虚拟商品到账后暂不支持退款"><b>4</b>购买后是否支持退款？ <span>›</span></button></div>
+          </section>
+        </section>
+
+        <section class="page-view points-page points-details-page" id="pointsDetailsView" aria-labelledby="pointsDetailsTitle">
+          <header class="view-page-heading">
+            <div><h1 id="pointsDetailsTitle">积分明细</h1><p>查看积分获得、使用和到期情况，掌握账户变化</p></div>
+          </header>
+          <section class="surface points-wallet-card" aria-label="我的积分账户">
+            <section class="points-wallet-primary">
+              <div class="points-details-art" aria-hidden="true"><i></i><i></i><i></i><b>★</b></div>
+              <span class="points-page-eyebrow">POINTS BALANCE</span>
+              <div class="points-primary-heading"><h2>我的积分</h2><span>当前可用</span></div>
+              <div class="points-balance-number"><strong>1,580</strong><small>积分</small></div>
+              <p>可用于 AI 报告解析、健康分析、内容生成等服务</p>
+            </section>
+            <section class="points-wallet-detail" aria-labelledby="pointsCompositionTitle">
+              <header class="points-wallet-detail-head">
+                <div><h2 id="pointsCompositionTitle">积分构成</h2><p>清晰了解积分来源与有效期</p></div>
+                <button class="points-mall-link" type="button" data-view="pointsMall"><svg aria-hidden="true"><use href="#i-cart"/></svg><span>前往积分商城</span><svg class="points-mall-arrow" aria-hidden="true"><use href="#i-arrow-right"/></svg></button>
+              </header>
+              <div class="points-source-grid">
+                <article class="points-source-item member-source"><span class="points-source-icon"><svg aria-hidden="true"><use href="#i-gift"/></svg></span><div><small>会员赠送积分</small><strong>1,000 <em>积分</em></strong><p>会员权益每月自动发放</p></div></article>
+                <article class="points-source-item recharge-source"><span class="points-source-icon"><svg aria-hidden="true"><use href="#i-coins"/></svg></span><div><small>充值积分</small><strong>580 <em>积分</em></strong><p>购买后即时到账</p></div></article>
+                <article class="points-source-item expiry-source"><span class="points-source-icon"><svg aria-hidden="true"><use href="#i-clock"/></svg></span><div><small>即将过期积分</small><strong>300 <em>积分</em></strong><p>将于 2027-01-31 到期</p></div></article>
+              </div>
+            </section>
+          </section>
+
+          <div class="points-insight-grid">
+            <section class="surface points-trend-card" aria-labelledby="pointsTrendTitle">
+              <div class="points-card-heading"><div><h2 id="pointsTrendTitle">积分使用趋势</h2><p>对比积分获取与消耗变化</p></div><div class="points-chart-tools"><div class="points-chart-legend"><span><i class="earned"></i>获取积分</span><span><i class="spent"></i>消耗积分</span></div><label class="points-chart-range"><span class="sr-only">趋势时间范围</span><select id="pointsTrendRange" aria-label="趋势时间范围"><option value="month" selected>本月</option><option value="quarter">近3个月</option><option value="halfYear">近6个月</option></select></label></div></div>
+              <div class="points-bar-chart" id="pointsTrendChart" role="img" aria-label="本月积分获取与消耗趋势柱状图"></div>
+            </section>
+
+            <section class="surface points-distribution-card" aria-labelledby="pointsDistributionTitle">
+              <div class="points-card-heading"><div><h2 id="pointsDistributionTitle">积分消耗分布</h2><p>近30天各服务消耗占比</p></div><span class="points-chart-period">近30天</span></div>
+              <div class="points-distribution-content">
+                <div class="points-donut" id="pointsDistributionChart" role="img" aria-label="近30天共消耗420积分"></div>
+                <ul class="points-distribution-list">
+                  <li><i class="report"></i><span>AI报告解析</span><b>65%</b><em>273 积分</em></li>
+                  <li><i class="health"></i><span>AI健康分析</span><b>20%</b><em>84 积分</em></li>
+                  <li><i class="generated"></i><span>智能内容生成</span><b>10%</b><em>42 积分</em></li>
+                  <li><i class="other"></i><span>其他</span><b>5%</b><em>21 积分</em></li>
+                </ul>
+              </div>
             </section>
           </div>
-          <section class="surface channel-panel">
-            <div class="section-title"><div><h2>渠道获客分析</h2><p>比较不同渠道带来的线索与成交效果</p></div><select id="channelSelect"><option>全部可见渠道</option><option>FHO二维码</option><option>老客户推荐</option><option>线下活动</option><option>合作渠道</option></select></div>
-            <div class="channel-grid"><article data-channel="FHO二维码"><h3>FHO二维码</h3><strong>40 <small>条线索</small></strong><p>成交 8 人 · 20.0%</p></article><article data-channel="老客户推荐"><h3>老客户推荐</h3><strong>50 <small>条线索</small></strong><p>成交 7 人 · 14.0%</p></article><article data-channel="线下活动"><h3>线下活动</h3><strong>25 <small>条线索</small></strong><p>成交 2 人 · 8.0%</p></article><article data-channel="合作渠道"><h3>合作渠道</h3><strong>13 <small>条线索</small></strong><p>成交 1 人 · 7.7%</p></article></div>
+
+          <section class="points-records" aria-labelledby="pointsRecordsTitle">
+            <div class="points-records-header">
+              <div class="points-record-tabs" role="tablist" aria-label="积分记录类型">
+                <button class="active" id="pointsRecordsTitle" type="button" role="tab" aria-selected="true" data-points-record-tab="明细">积分明细</button>
+                <button type="button" role="tab" aria-selected="false" data-points-record-tab="购买">购买记录</button>
+              </div>
+              <button class="points-export-button" type="button" data-toast="积分记录已导出（演示）"><svg aria-hidden="true"><use href="#i-download"/></svg>导出记录</button>
+            </div>
+            <form class="points-query-bar surface" id="pointsQueryForm">
+              <label class="points-type-filter"><span>记录类型</span><select id="pointsTypeFilter"><option value="全部">全部类型</option><option value="AI报告解析">AI报告解析</option><option value="购买积分">购买积分</option><option value="会员赠送">会员赠送</option><option value="AI健康分析">AI健康分析</option><option value="智能内容生成">智能内容生成</option></select></label>
+              <label class="points-date-filter"><span class="points-query-label">发生时间</span><svg aria-hidden="true"><use href="#i-calendar"/></svg><input id="pointsDateStart" type="text" value="2026-09-01" aria-label="开始日期" readonly /><b>至</b><input id="pointsDateEnd" type="text" value="2026-11-18" aria-label="结束日期" readonly /><i aria-hidden="true">⌄</i></label>
+              <div class="points-query-actions"><button class="reset-btn" id="resetPointsQuery" type="button">重置</button><button class="query-btn" type="submit">查询</button></div>
+            </form>
+
+            <div class="surface points-detail-panel">
+              <div class="points-detail-table-wrap">
+                <table class="points-detail-table"><thead><tr><th>发生时间</th><th>类型</th><th>积分变动</th><th>积分余额</th><th>说明</th></tr></thead><tbody id="pointsDetailRows">
+                  <tr data-points-category="AI报告解析" data-points-kind="消费"><td>2026-11-18 10:24</td><td><span class="points-record-type"><i>✦</i>AI报告解析</span></td><td><b class="points-minus">−20</b></td><td>1,580</td><td>生成《健康体检报告解读》</td></tr>
+                  <tr data-points-category="购买积分" data-points-kind="购买"><td>2026-11-17 16:05</td><td><span class="points-record-type purchase"><i>▤</i>购买积分</span></td><td><b class="points-plus">+5,000</b></td><td>1,600</td><td>购买标准积分包（5,000 积分）</td></tr>
+                  <tr data-points-category="会员赠送" data-points-kind="收入"><td>2026-11-01 00:00</td><td><span class="points-record-type gift"><i>♛</i>会员赠送</span></td><td><b class="points-plus">+2,000</b></td><td>6,600</td><td>启航会员 11 月赠送积分</td></tr>
+                  <tr data-points-category="AI健康分析" data-points-kind="消费"><td>2026-10-28 14:30</td><td><span class="points-record-type"><i>✦</i>AI健康分析</span></td><td><b class="points-minus">−30</b></td><td>4,600</td><td>生成《健康风险评估分析》</td></tr>
+                  <tr data-points-category="智能内容生成" data-points-kind="消费"><td>2026-10-25 09:12</td><td><span class="points-record-type generated"><i>▣</i>智能内容生成</span></td><td><b class="points-minus">−10</b></td><td>4,630</td><td>生成健康管理建议（AI 辅助）</td></tr>
+                  <tr data-points-category="AI报告解析" data-points-kind="消费"><td>2026-10-22 15:46</td><td><span class="points-record-type"><i>✦</i>AI报告解析</span></td><td><b class="points-minus">−20</b></td><td>4,640</td><td>生成《年度体检指标解读》</td></tr>
+                  <tr data-points-category="AI健康分析" data-points-kind="消费"><td>2026-10-18 11:20</td><td><span class="points-record-type"><i>✦</i>AI健康分析</span></td><td><b class="points-minus">−30</b></td><td>4,660</td><td>生成慢病风险趋势分析</td></tr>
+                  <tr data-points-category="智能内容生成" data-points-kind="消费"><td>2026-10-15 09:35</td><td><span class="points-record-type generated"><i>▣</i>智能内容生成</span></td><td><b class="points-minus">−10</b></td><td>4,690</td><td>生成客户随访沟通建议</td></tr>
+                  <tr data-points-category="AI报告解析" data-points-kind="消费"><td>2026-10-12 17:08</td><td><span class="points-record-type"><i>✦</i>AI报告解析</span></td><td><b class="points-minus">−20</b></td><td>4,700</td><td>生成《血脂检查报告解读》</td></tr>
+                  <tr data-points-category="智能内容生成" data-points-kind="消费"><td>2026-10-08 13:16</td><td><span class="points-record-type generated"><i>▣</i>智能内容生成</span></td><td><b class="points-minus">−10</b></td><td>4,720</td><td>生成家庭健康提醒内容</td></tr>
+                  <tr data-points-category="AI健康分析" data-points-kind="消费"><td>2026-10-05 10:42</td><td><span class="points-record-type"><i>✦</i>AI健康分析</span></td><td><b class="points-minus">−30</b></td><td>4,730</td><td>生成睡眠与运动综合分析</td></tr>
+                  <tr data-points-category="会员赠送" data-points-kind="收入"><td>2026-10-01 00:00</td><td><span class="points-record-type gift"><i>♛</i>会员赠送</span></td><td><b class="points-plus">+2,000</b></td><td>4,760</td><td>启航会员 10 月赠送积分</td></tr>
+                  <tr data-points-category="AI报告解析" data-points-kind="消费"><td>2026-09-28 16:12</td><td><span class="points-record-type"><i>✦</i>AI报告解析</span></td><td><b class="points-minus">−20</b></td><td>2,760</td><td>生成《肝功能检查报告解读》</td></tr>
+                  <tr data-points-category="智能内容生成" data-points-kind="消费"><td>2026-09-20 10:08</td><td><span class="points-record-type generated"><i>▣</i>智能内容生成</span></td><td><b class="points-minus">−10</b></td><td>2,780</td><td>生成健康宣教内容</td></tr>
+                  <tr data-points-category="购买积分" data-points-kind="购买"><td>2026-09-15 14:26</td><td><span class="points-record-type purchase"><i>▤</i>购买积分</span></td><td><b class="points-plus">+1,000</b></td><td>2,790</td><td>购买基础积分包（1,000 积分）</td></tr>
+                </tbody></table>
+                <div class="points-record-empty" id="pointsRecordEmpty" hidden>当前条件下暂无积分记录</div>
+              </div>
+              <footer class="points-table-footer"><span id="pointsRecordCount">共 56 条记录</span><div class="points-pagination"><button type="button" aria-label="上一页">‹</button><button class="active" type="button">1</button><button type="button">2</button><button type="button">3</button><button type="button">4</button><button type="button" aria-label="下一页">›</button><select aria-label="每页条数"><option selected>15 条/页</option><option>30 条/页</option><option>50 条/页</option></select></div></footer>
+            </div>
           </section>
-          <section class="surface leads-panel">
-            <div class="section-title"><div><h2>客户线索</h2><p>跟进咨询、确认服务需求、关联成交订单</p></div><span id="resultCount">共 6 条演示线索</span></div>
-            <div class="leads-toolbar"><div class="tabs"><button class="active" data-status="全部">全部</button><button data-status="待联系">待联系</button><button data-status="跟进中">跟进中</button><button data-status="已成交">已成交</button><button data-status="已关闭">已关闭</button></div><input id="searchInput" type="search" placeholder="搜索客户姓名 / 意向服务" /></div>
-            <div class="table-wrap"><table><thead><tr><th>客户</th><th>来源</th><th>归属FHO</th><th>意向服务</th><th>状态</th><th>操作</th></tr></thead><tbody id="leadRows"></tbody></table><div class="empty" id="emptyState" hidden>暂无符合条件的客户线索</div></div>
-          </section>
-          <p class="disclaimer">演示说明：所有客户、收入和渠道数据均为模拟。二维码仅作视觉演示，不是可实际访问的推广链接。</p>
         </section>
       </div>
     </main>
   </div>
 
-  <div class="modal-backdrop" id="modalBackdrop" hidden><section class="modal" role="dialog" aria-modal="true"><button class="modal-close" id="modalClose">×</button><div id="modalContent"></div></section></div>
+  <nav class="patient-switcher" id="patientSwitcher" aria-label="快速切换患者" hidden>
+    <button id="previousPatient" type="button" aria-label="上一位患者" title="上一位患者"><span aria-hidden="true">←</span></button>
+    <span class="patient-switcher-position" id="patientSwitcherPosition" aria-live="polite">1 / 10</span>
+    <button id="nextPatient" type="button" aria-label="下一位患者" title="下一位患者"><span aria-hidden="true">→</span></button>
+  </nav>
+
+  <button class="ai-assistant-launcher" id="aiAssistantLauncher" type="button" aria-label="打开AI主理人" aria-controls="aiAssistantPanel" aria-expanded="false">
+    <span class="ai-launcher-glow"></span><span class="ai-launcher-avatar" aria-hidden="true"></span>
+    <span class="ai-launcher-copy"><b>AI主理人</b><small>智能助手</small></span><i aria-hidden="true">•••</i>
+  </button>
+
+  <aside class="ai-assistant-panel" id="aiAssistantPanel" aria-label="AI主理人" aria-hidden="true">
+    <header class="ai-panel-header">
+      <div class="ai-panel-identity"><span class="ai-panel-avatar" aria-hidden="true"></span><div><strong>AI主理人</strong><small><i></i> 随时在线</small></div></div>
+      <div class="ai-panel-actions"><button id="aiSessionButton" type="button" aria-controls="aiSessionPanel" aria-expanded="false"><span>会话</span><svg class="ai-session-chevron"><use href="#i-chevron"/></svg></button><button id="aiAssistantClose" type="button" aria-label="关闭AI主理人">×</button></div>
+    </header>
+    <div class="ai-panel-body" id="aiPanelBody">
+      <section class="ai-welcome-card">
+        <div><h2>您好，我是您的AI助理人</h2><p>作为你的智能伙伴，我既能存储知识，又能陪你聊天答疑</p><span>• 患者查找&nbsp;&nbsp; • 服务待办&nbsp;&nbsp; • 资料信息</span></div>
+        <time datetime="2026-11-17"><b>11月</b><strong>17</strong></time>
+      </section>
+      <section class="ai-suggestions" id="aiSuggestions">
+        <div class="ai-section-title"><span>?</span><div><h3>猜你想问</h3><small>SUGGESTED QUESTIONS</small></div></div>
+        <button type="button" data-ai-question="今天有哪些任务还没有完成？"><i><svg><use href="#i-calendar"/></svg></i><span>今天有哪些任务还没有完成？</span></button>
+        <button type="button" data-ai-question="今天该联系谁？"><i><svg><use href="#i-user"/></svg></i><span>今天该联系谁？</span></button>
+        <button type="button" data-ai-question="查找今日新增用户"><i><svg><use href="#i-users"/></svg></i><span>查找今日新增用户</span></button>
+        <button type="button" data-ai-question="猜你想问"><i><svg><use href="#i-chat"/></svg></i><span>猜你想问</span></button>
+      </section>
+      <div class="ai-chat-stream" id="aiChatStream" aria-live="polite"></div>
+    </div>
+    <footer class="ai-panel-footer">
+      <div class="ai-quick-actions" aria-label="快捷能力"><button type="button" data-ai-question="查医嘱">查医嘱</button><button type="button" data-ai-question="查血压">查血压</button><button type="button" data-ai-question="查血糖">查血糖</button><button type="button" data-ai-question="查用药">查用药</button><button type="button" data-ai-question="查报告">查报告</button><button type="button" data-ai-question="查异常">查异常</button></div>
+      <form class="ai-input-box" id="aiAssistantForm"><label for="aiAssistantInput">输入您想问我的问题...</label><textarea id="aiAssistantInput" rows="2" placeholder="输入您想问我的问题..."></textarea><div class="ai-input-footer"><div class="ai-input-meta"><button class="ai-model-button" type="button"><span>∞</span> 智能模型 <svg><use href="#i-chevron"/></svg></button><span class="ai-points-usage" id="aiPointsUsage" title="每次会话消耗 5 积分" aria-live="polite"><svg><use href="#i-membership"/></svg><small>积分</small><b id="aiPointsUsed">0</b><i>/</i><span>20,000</span></span></div><div class="ai-send-control"><button class="ai-send-button" type="submit" aria-label="发送问题，消耗 5 积分">➤</button><small>消耗 5 积分</small></div></div></form>
+    </footer>
+    <section class="ai-session-panel" id="aiSessionPanel" aria-label="历史会话" hidden>
+      <header class="ai-history-header"><div><small>CONVERSATION HISTORY</small><h2>历史会话</h2></div><button id="aiNewChat" type="button"><svg><use href="#i-plus"/></svg>新建对话</button></header>
+      <div class="ai-history-scroll">
+        <section class="ai-history-group"><h3>今天 <span>3</span></h3><div class="ai-history-list">
+          <div class="ai-history-item active" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>今日健康任务整理</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>重点客户跟进建议</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>患者血压异常查询</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+        </div></section>
+        <section class="ai-history-group"><h3>昨天 <span>2</span></h3><div class="ai-history-list">
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>昨日新增客户汇总</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>服务到期客户清单</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+        </div></section>
+        <section class="ai-history-group"><h3>3天前 <span>2</span></h3><div class="ai-history-list">
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>糖尿病客户随访计划</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>体检报告异常汇总</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+        </div></section>
+        <section class="ai-history-group"><h3>7天前 <span>2</span></h3><div class="ai-history-list">
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>会员权益使用情况</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>慢病客户月度总结</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+        </div></section>
+        <section class="ai-history-group"><h3>30天前 <span>1</span></h3><div class="ai-history-list">
+          <div class="ai-history-item" role="button" tabindex="0"><span class="ai-history-icon"><svg><use href="#i-chat"/></svg></span><strong>十月客户服务复盘</strong><div class="ai-history-actions"><button type="button" data-session-edit aria-label="编辑会话名称"><svg><use href="#i-edit"/></svg></button><button type="button" data-session-delete aria-label="删除会话"><svg><use href="#i-trash"/></svg></button></div></div>
+        </div></section>
+      </div>
+    </section>
+  </aside>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden><section class="modal" id="appModal" role="dialog" aria-modal="true"><button class="modal-close" id="modalClose" aria-label="关闭弹窗">×</button><div id="modalContent"></div></section></div>
+  <div class="custom-report-backdrop" id="customReportBackdrop" hidden>
+    <aside class="custom-report-drawer" id="customReportDrawer" role="dialog" aria-modal="true" aria-labelledby="customReportTitle">
+      <header class="custom-report-header"><div><span>AI REPORT</span><h2 id="customReportTitle">自定义报告</h2><p>选择健康资料并补充生成要求</p></div><button type="button" id="customReportClose" aria-label="关闭自定义报告抽屉">×</button></header>
+      <form class="custom-report-form" id="customReportForm">
+        <div class="custom-report-body">
+          <section class="custom-report-patient"><img src="./patient-avatar.png" alt="张女士头像"/><div><strong>张女士</strong><span>女 · 56岁</span><small>138****8920</small></div></section>
+          <p class="custom-report-ai"><i>✦</i><span><b>AI 助手将综合客户的多维健康数据生成内容</b><small>内容生成后可继续编辑，请在发布前完成审核</small></span></p>
+          <label class="custom-report-field" for="customReportName"><span><b>*</b> 报告名称</span><div><input id="customReportName" name="reportName" maxlength="40" required value="健康管理报告-20261119"/><em><strong id="customReportNameCount">15</strong> / 40</em></div></label>
+          <fieldset class="custom-report-scope"><legend>资料范围</legend><div class="custom-report-scope-grid"><label><input type="radio" name="reportScope" value="全部健康资料" checked/><span><i></i><b>全部健康资料</b><small>自动汇总档案中的完整健康数据</small></span></label><label><input type="radio" name="reportScope" value="指定健康资料"/><span><i></i><b>指定健康资料</b><small>自主选择本次需要分析的资料</small></span></label></div></fieldset>
+          <section class="custom-report-data-options" id="customReportDataOptions" hidden aria-label="选择健康资料"><p>选择需要纳入报告的资料</p><div><label><input type="checkbox" checked/>基础档案</label><label><input type="checkbox" checked/>健康史</label><label><input type="checkbox"/>体检与检验</label><label><input type="checkbox"/>随访记录</label></div></section>
+          <label class="custom-report-field custom-report-instruction" for="customReportInstruction"><span>补充指令 <small>选填</small></span><p>AI 助手将重点结合您的补充指令进行文档生成</p><div><textarea id="customReportInstruction" name="instruction" maxlength="500" placeholder="例如：请突出异常指标与后续建议，语言更适合面向客户沟通。"></textarea><em><strong id="customReportInstructionCount">0</strong> / 500</em></div></label>
+        </div>
+        <footer class="custom-report-footer"><button type="button" id="customReportCancel">取消</button><button type="submit">生成报告</button></footer>
+      </form>
+    </aside>
+  </div>
+  <div class="smart-drawer-backdrop" id="smartFilterBackdrop" hidden>
+    <aside class="smart-filter-drawer" role="dialog" aria-modal="true" aria-labelledby="smartFilterTitle">
+      <header class="smart-drawer-header"><div><h2 id="smartFilterTitle">智能筛选器</h2><p>用一句话生成客户查询条件，并可人工校对</p></div><button type="button" id="closeSmartFilter" aria-label="关闭智能筛选器">×</button></header>
+      <div class="smart-drawer-body">
+        <section class="smart-ai-panel">
+          <div class="smart-ai-heading"><span>✦ AI 智能解析</span><em>内容由 AI 生成，请仔细核对</em></div>
+          <label for="customerSmartFilter">描述要查找的客户</label>
+          <textarea id="customerSmartFilter" placeholder="例如：查找 50 岁以上的女性客户，当前正在服务，下一步需要健康随访"></textarea>
+          <div class="smart-ai-actions"><button type="button" id="optimizeSmartFilter">✦ 一键优化</button><button type="button" id="generateSmartRules" disabled>一键生成</button></div>
+        </section>
+        <section class="smart-template-section">
+          <div class="smart-section-heading"><h3><span>▦</span>规则配置模板</h3><p>6 个预制模板，单选后立即回填</p></div>
+          <div class="smart-template-grid" id="smartTemplateGrid">
+            <button type="button" data-smart-template="hypertension"><i></i>高血压管理客户</button>
+            <button type="button" data-smart-template="diabetes"><i></i>糖尿病重点管理客户</button>
+            <button type="button" data-smart-template="activation"><i></i>待激活服务客户</button>
+            <button type="button" data-smart-template="followup"><i></i>近期健康随访客户</button>
+            <button type="button" data-smart-template="potential" hidden><i></i>潜在未购买客户</button>
+            <button type="button" data-smart-template="renewal" hidden><i></i>历史续费意向客户</button>
+          </div>
+          <button type="button" class="smart-more-templates" id="showMoreSmartTemplates">查看更多（2）</button>
+        </section>
+        <section class="smart-rules-section">
+          <div class="smart-section-heading"><div><h3><span>≛</span>规则配置</h3><p>检查 AI 生成的条件，也可以手动增删修改</p></div><button type="button" id="saveSmartTemplate">保存为模板</button></div>
+          <div class="smart-rules-empty" id="smartRulesEmpty"><strong>暂无查询条件</strong><span>输入一句话让 AI 生成，或手动添加条件</span></div>
+          <div class="smart-rules-list" id="smartRulesList"></div>
+          <div class="smart-generated-summary" id="smartGeneratedSummary" hidden><strong>智能总结</strong><span id="smartGeneratedText"></span></div>
+          <button type="button" class="add-smart-rule" id="addSmartRule">＋ 添加条件</button>
+        </section>
+      </div>
+      <footer class="smart-drawer-footer"><button type="button" class="smart-cancel" id="cancelSmartFilter">取消</button><button type="button" class="smart-apply" id="applySmartRules" disabled>应用筛选</button></footer>
+    </aside>
+  </div>
+  <div class="customer-mark-backdrop" id="customerMarkBackdrop" hidden>
+    <aside class="customer-mark-drawer" role="dialog" aria-modal="true" aria-labelledby="customerMarkTitle">
+      <header class="customer-mark-header"><h2 id="customerMarkTitle">标记客户</h2><button type="button" id="customerMarkClose" aria-label="关闭标记客户抽屉">×</button></header>
+      <form id="customerMarkForm">
+        <div class="customer-mark-body">
+          <section class="mark-customer-summary">
+            <span class="mark-customer-avatar" id="markCustomerAvatar">客</span>
+            <div><strong id="markCustomerName">客户姓名</strong><p id="markCustomerMeta">性别 · 年龄 · 手机号码</p></div>
+          </section>
+          <section class="customer-mark-section">
+            <div class="customer-mark-section-title"><span></span><div><h3>服务信息</h3><p>选择本次标记对应的管理类型，并填写客户服务信息。</p></div></div>
+            <fieldset class="mark-type-fieldset"><legend><b>*</b> 标记类型 <span id="markTypeCount">已选 0/3</span></legend><div class="mark-type-grid" id="markTypeGrid"><button type="button" data-mark-type="基因/分子检测">基因/分子检测</button><button type="button" data-mark-type="就医协同">就医协同</button><button type="button" data-mark-type="体检/健康检查">体检/健康检查</button><button type="button" data-mark-type="营养健康产品">营养健康产品</button><button type="button" data-mark-type="专项检测/影像">专项检测/影像</button></div></fieldset>
+            <label class="customer-mark-field"><span><b>*</b> 服务名称</span><input id="markServiceName" name="serviceName" required placeholder="请输入服务名称" /></label>
+            <label class="customer-mark-field"><span><b>*</b> 服务金额</span><div class="mark-amount-input"><i>¥</i><input id="markServiceAmount" name="serviceAmount" type="number" min="0" step="0.01" required placeholder="请输入服务金额" /></div></label>
+          </section>
+          <section class="customer-mark-section">
+            <div class="customer-mark-section-title"><span></span><div><h3>服务权益</h3><p>按服务包权益的方式补充权益内容和使用期限。</p></div></div>
+            <div class="mark-benefit-row"><label><span>权益内容</span><input id="markBenefitName" placeholder="例如：健康管理随访" /></label><label><span>期限</span><select id="markBenefitTerm"><option>1个月</option><option selected>3个月</option><option>6个月</option><option>12个月</option><option>长期有效</option></select></label></div>
+          </section>
+        </div>
+        <footer class="customer-mark-footer"><button type="button" id="customerMarkCancel">取消</button><button type="submit">确定标记</button></footer>
+      </form>
+    </aside>
+  </div>
+  <div class="account-drawer-backdrop" id="accountDrawerBackdrop" hidden><aside class="account-drawer" role="dialog" aria-modal="true" aria-labelledby="accountDrawerTitle"><header><div><small>会员与积分</small><h2 id="accountDrawerTitle">账户记录</h2></div><button type="button" id="accountDrawerClose" aria-label="关闭抽屉">×</button></header><div class="account-drawer-body" id="accountDrawerBody"></div></aside></div>
+  <div class="family-member-backdrop" id="familyMemberBackdrop" hidden>
+    <aside class="family-member-drawer" role="dialog" aria-modal="true" aria-labelledby="familyMemberDrawerTitle">
+      <header><div><small>家庭关系</small><h2 id="familyMemberDrawerTitle">新增家庭成员</h2><p id="familyMemberDrawerDescription">补充成员信息后，将自动加入家庭族谱。</p></div><button type="button" id="familyMemberClose" aria-label="关闭家庭成员抽屉">×</button></header>
+      <form id="familyMemberForm">
+        <div class="family-member-form-body">
+          <div class="family-member-form-grid">
+            <label><span>关系 <b>*</b></span><select name="relation" required><option value="">请选择关系</option><option value="本人" hidden>本人</option><option>父母</option><option>子女</option><option>配偶</option><option>兄弟姐妹</option><option>祖父母</option><option>孙辈</option><option>其他亲属</option></select></label>
+            <label><span>姓名 <b>*</b></span><input name="name" required maxlength="20" placeholder="请输入成员姓名" /></label>
+            <label><span>性别 <b>*</b></span><select name="gender" required><option value="">请选择性别</option><option>女</option><option>男</option><option>其他</option></select></label>
+            <label><span>出生日期</span><input name="birthDate" type="date" /></label>
+            <label class="family-member-form-wide"><span>手机号码</span><input name="phone" type="tel" inputmode="numeric" maxlength="11" pattern="1[3-9][0-9]{9}" placeholder="请输入11位手机号码" /></label>
+            <label class="family-member-form-wide"><span>健康情况</span><textarea name="health" maxlength="200" placeholder="例如：高血压，规律服药；或填写健康状况良好"></textarea></label>
+            <label class="family-member-form-wide"><span>备注信息</span><textarea name="notes" maxlength="300" placeholder="补充照护角色、居住情况或其他关系说明"></textarea></label>
+          </div>
+        </div>
+        <footer><button type="button" id="familyMemberCancel">取消</button><button type="submit" id="familyMemberSubmit">确认添加</button></footer>
+      </form>
+    </aside>
+  </div>
+  <div class="family-relation-note-backdrop" id="familyRelationNoteBackdrop" hidden>
+    <form class="family-relation-note-dialog" id="familyRelationNoteForm" role="dialog" aria-modal="true" aria-labelledby="familyRelationNoteTitle">
+      <header><div><small>家庭关系</small><h2 id="familyRelationNoteTitle">添加关系备注</h2><p id="familyRelationNoteDescription">记录两位成员之间需要关注的信息</p></div><button type="button" id="familyRelationNoteClose" aria-label="关闭关系备注">×</button></header>
+      <label><span>备注信息</span><textarea id="familyRelationNoteInput" maxlength="60" rows="3" placeholder="例如：主要照护人、长期异地居住、每周陪同复诊"></textarea><small>最多 60 个字，保存后显示在关系虚线上</small></label>
+      <footer><button type="button" id="familyRelationNoteCancel">取消</button><button type="submit">保存备注</button></footer>
+    </form>
+  </div>
+  <div class="quick-record-backdrop" id="quickRecordBackdrop" hidden>
+    <aside class="quick-record-drawer" role="dialog" aria-modal="true" aria-labelledby="quickRecordTitle">
+      <header class="quick-record-header">
+        <div><span class="quick-record-kicker"><i></i>客户主档</span><h2 id="quickRecordTitle">快速建档</h2><p>先创建患者主档，健康史可在建档后继续完善</p></div>
+        <button type="button" id="quickRecordClose" aria-label="关闭快速建档">×</button>
+      </header>
+      <form class="quick-record-form" id="quickRecordForm">
+        <div class="quick-record-body">
+          <section class="quick-record-section">
+            <div class="quick-record-section-title"><span>01</span><div><h3>基础信息</h3><p>用于建立唯一、可持续补充的客户健康档案</p></div></div>
+            <div class="quick-record-grid">
+              <label class="quick-record-field"><span>姓名 <b>*</b></span><input name="name" required autocomplete="name" placeholder="请输入患者姓名" /></label>
+              <label class="quick-record-field"><span>客户标签 <em>选填</em></span><select name="customerTag"><option value="">暂不设置</option><option>待跟进</option><option>跟进中</option><option>高意向</option><option>暂无意向</option><option>重点关注</option></select></label>
+              <label class="quick-record-field"><span>证件类型</span><select name="documentType"><option value="">暂不选择</option><option>居民身份证</option><option>护照</option><option>港澳居民来往内地通行证</option><option>其他证件</option></select></label>
+              <label class="quick-record-field"><span>证件号码</span><input name="documentNumber" maxlength="18" placeholder="请输入证件号码" /></label>
+              <label class="quick-record-field"><span>性别</span><select name="gender"><option value="">请选择</option><option>女</option><option>男</option><option>其他</option></select></label>
+              <label class="quick-record-field"><span>出生日期</span><input name="birthDate" type="date" /><small>年龄将根据出生日期自动计算</small></label>
+              <label class="quick-record-field"><span>手机号</span><input name="phone" type="tel" inputmode="numeric" maxlength="11" pattern="1[3-9][0-9]{9}" placeholder="请输入11位手机号" /></label>
+            </div>
+            <button class="quick-more-toggle" id="quickMoreToggle" type="button" aria-expanded="false" aria-controls="quickMoreFields"><span>更多信息（选填）</span><i>⌄</i></button>
+            <div class="quick-more-fields" id="quickMoreFields" hidden>
+              <div class="quick-record-grid">
+                <label class="quick-record-field"><span>民族</span><select name="ethnicity"><option value="">请选择</option><option>汉族</option><option>蒙古族</option><option>回族</option><option>藏族</option><option>其他</option></select></label>
+                <label class="quick-record-field"><span>婚姻状况</span><select name="maritalStatus"><option value="">请选择</option><option>未婚</option><option>已婚</option><option>离异</option><option>丧偶</option></select></label>
+                <label class="quick-record-field quick-record-wide"><span>职业</span><input name="occupation" placeholder="请输入职业" /></label>
+                <fieldset class="quick-record-address quick-record-wide"><legend>常住地址</legend><div><select name="province"><option value="">请选择省份</option><option>广东省</option><option>北京市</option><option>上海市</option><option>浙江省</option><option>江苏省</option></select><select name="city"><option value="">请选择城市</option><option>广州市</option><option>深圳市</option><option>杭州市</option><option>南京市</option></select><select name="district"><option value="">请选择区县</option><option>天河区</option><option>越秀区</option><option>南山区</option><option>西湖区</option></select></div><input name="addressDetail" placeholder="请输入详细地址" /></fieldset>
+              </div>
+            </div>
+          </section>
+          <section class="quick-record-section quick-health-section">
+            <div class="quick-record-section-title"><span>02</span><div><h3>健康史 <em>选填</em></h3><p>仅快速补充既往疾病、手术史与过敏史，其他内容可建档后完善</p></div></div>
+            <div class="quick-health-list">
+              <article><div><h4>既往疾病</h4><p data-health-empty="disease">暂无相关记录</p><div class="quick-health-entries" data-health-list="disease"></div></div><button type="button" class="quick-health-add" data-health-add="disease" data-health-label="疾病">＋ 添加疾病</button></article>
+              <article><div><h4>手术史</h4><p data-health-empty="surgery">暂无相关记录</p><div class="quick-health-entries" data-health-list="surgery"></div></div><button type="button" class="quick-health-add" data-health-add="surgery" data-health-label="手术">＋ 添加手术</button></article>
+              <article><div><h4>过敏史</h4><p data-health-empty="allergy">暂无相关记录</p><div class="quick-health-entries" data-health-list="allergy"></div></div><button type="button" class="quick-health-add" data-health-add="allergy" data-health-label="过敏信息">＋ 添加过敏信息</button></article>
+            </div>
+          </section>
+        </div>
+        <footer class="quick-record-footer"><p><i></i>仅姓名为必填项，其他信息可建档后补充</p><div><button type="button" id="quickRecordCancel">取消</button><button type="submit">创建档案</button></div></footer>
+      </form>
+    </aside>
+  </div>
+  <div class="service-drawer-backdrop" id="patientReminderBackdrop" hidden>
+    <aside class="service-drawer" role="dialog" aria-modal="true" aria-labelledby="patientReminderTitle"><header><h2 id="patientReminderTitle">新增提醒</h2><button type="button" data-close-reminder aria-label="关闭">×</button></header><form id="patientReminderForm"><div class="service-drawer-body"><label class="service-form-field"><span><b>*</b> 提醒内容</span><input name="content" required placeholder="请输入需要跟进的服务事项"/></label><fieldset><legend><b>*</b> 提醒设置</legend><label class="service-form-field"><span>提醒时间</span><input name="time" type="datetime-local" required value="2026-11-21T09:00"/></label><label class="repeat-line"><span>重复提醒</span><input id="repeatReminder" name="repeat" type="checkbox" checked/></label><div class="repeat-settings" id="repeatSettings"><span>每隔</span><input name="interval" type="number" min="1" value="3"/><select name="unit"><option>天</option><option>周</option></select><span>，共提醒</span><input name="count" type="number" min="1" value="4"/><span>次</span></div><p class="repeat-preview">ⓘ　11月21日09:00首次提醒，此后每隔3天提醒一次，共4次。</p></fieldset><label class="service-form-field"><span>备注</span><textarea name="note" placeholder="补充执行要求或客户注意事项"></textarea></label></div><footer><button type="button" data-close-reminder>取消</button><button class="primary" type="submit">确定</button></footer></form></aside>
+  </div>
+  <div class="service-drawer-backdrop" id="serviceParseBackdrop" hidden>
+    <aside class="service-drawer parse-drawer" role="dialog" aria-modal="true" aria-labelledby="serviceParseTitle"><header><h2 id="serviceParseTitle">专家资料解析</h2><button type="button" data-close-parse aria-label="关闭">×</button></header><nav class="parse-tabs"><button class="active" type="button">全部</button><button type="button">待补充</button><button type="button">已完成</button><button type="button">已失败</button></nav><div class="service-drawer-body parse-list"><article><header><strong>image1</strong><em class="parsing">解析中</em></header><p>◔　AI正在识别资料名称、报告时间和关联报告。</p><progress value="10" max="100"></progress></article><article><header><strong>image2</strong><em>待补充</em></header><form class="parse-item-form"><div><label><span>* 名称</span><input value="image2"/></label><label><span>* 报告时间</span><input type="date"/></label></div><fieldset><legend>关联报告 <small>非必填，可多选</small></legend><label><input type="checkbox"/>血常规检查报告</label><label><input type="checkbox"/>心电图检查报告</label><label><input type="checkbox"/>血压监测记录</label><label><input type="checkbox"/>肝肾功能检查报告</label></fieldset><button type="submit">保存并归档</button></form></article><article><header><strong>image4</strong><em>待补充</em></header><form class="parse-item-form"><div><label><span>* 名称</span><input value="image4"/></label><label><span>* 报告时间</span><input type="date"/></label></div><fieldset><legend>关联报告 <small>非必填，可多选</small></legend><label><input type="checkbox" checked/>血常规检查报告</label><label><input type="checkbox"/>心电图检查报告</label><label><input type="checkbox"/>血压监测记录</label></fieldset><button type="submit">保存并归档</button></form></article></div></aside>
+  </div>
+  <div class="service-modal-backdrop" id="serviceUploadBackdrop" hidden><section class="service-upload-modal" role="dialog" aria-modal="true" aria-labelledby="serviceUploadTitle"><header><h2 id="serviceUploadTitle">上传专家资料</h2><button type="button" data-close-upload aria-label="关闭">×</button></header><div class="upload-body"><button type="button" id="serviceUploadTile">＋</button><input id="serviceUploadInput" type="file" accept=".pdf,.png,.jpg,.jpeg" multiple hidden/><div id="serviceUploadFiles"></div></div><footer><p>支持拖拽或点击上传，最多可上传 20 个文件，支持 PDF、PNG、JPG 格式。</p><div><button type="button" data-close-upload>取消</button><button class="primary" type="button" id="serviceUploadConfirm">确定</button></div></footer></section></div>
   <div class="toast" id="toast" role="status"></div>
-  <script src="./app.js?v=20261113"></script>
-  <script src="./ui-notes.js?v=20261113"></script>
+  <script src="./assets/echarts.min.js?v=6.1.0"></script>
+  <script src="./app.js?v=20261120-65"></script>
 </body>
 </html>
